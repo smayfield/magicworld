@@ -8,10 +8,13 @@ Parameters:
   DomainName:
     Type: String
     Default: magicworld.com
-  GitHubRepo:
+  GitHubSubPrefix:
     Type: String
-    Default: smayfield/magicworld
-    Description: owner/repo allowed to deploy (main branch only).
+    Default: repo:smayfield@1933107/magicworld@1387513518
+    Description: >
+      OIDC subject prefix of the repo allowed to deploy (main branch only).
+      This repo uses GitHub's immutable subject format (owner@id/repo@id); see
+      `gh api repos/smayfield/magicworld/actions/oidc/customization/sub`.
   CreateOidcProvider:
     Type: String
     AllowedValues: ["true", "false"]
@@ -219,7 +222,7 @@ Resources:
             Condition:
               StringEquals:
                 token.actions.githubusercontent.com:aud: sts.amazonaws.com
-                token.actions.githubusercontent.com:sub: !Sub repo:${GitHubRepo}:ref:refs/heads/main
+                token.actions.githubusercontent.com:sub: !Sub ${GitHubSubPrefix}:ref:refs/heads/main
       Policies:
         - PolicyName: deploy-site
           PolicyDocument:
