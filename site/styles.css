@@ -1,32 +1,37 @@
 :root {
-  --bg: #f7f6fb;
-  --surface: #ffffff;
-  --text: #1d1b26;
-  --muted: #5d5a6b;
-  --border: #e3e0ee;
+  --bg: #f6f4fd;
+  --surface: rgba(255, 255, 255, 0.7);
+  --text: #1a1630;
+  --muted: #5b5775;
+  --border: rgba(90, 70, 180, 0.16);
   --accent: #6d4aff;
   --accent-soft: #ece7ff;
-  --hero-from: #6d4aff;
-  --hero-to: #b04aff;
+
+  /* The hero is always a night sky, in both themes */
+  --night: #0b0820;
+  --glow-1: #7c4dff;
+  --glow-2: #ff4fd8;
+  --glow-3: #22d3ee;
+  --gold: #ffd76a;
+
+  --display: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #121019;
-    --surface: #1c1926;
-    --text: #ece9f5;
-    --muted: #a7a2b8;
-    --border: #2d2940;
-    --accent: #a48bff;
-    --accent-soft: #2a2342;
-    --hero-from: #3d2a99;
-    --hero-to: #6a2a99;
+    --bg: #0e0b22;
+    --surface: rgba(30, 24, 64, 0.55);
+    --text: #eeeaff;
+    --muted: #a9a3c9;
+    --border: rgba(170, 150, 255, 0.16);
+    --accent: #b49cff;
+    --accent-soft: rgba(124, 77, 255, 0.18);
   }
 }
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -43,72 +48,215 @@ a { color: var(--accent); }
   padding: 0 16px;
 }
 
+/* ---------- Hero ---------- */
+
 .hero {
-  background: linear-gradient(135deg, var(--hero-from), var(--hero-to));
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  min-height: min(88vh, 760px);
+  display: flex;
+  align-items: center;
+  background: radial-gradient(ellipse at 50% 120%, #2a1466 0%, var(--night) 60%);
   color: #fff;
-  padding: 72px 0 64px;
+  padding: 96px 0 80px;
 }
 .hero a { color: #fff; }
-.hero h1 {
-  margin: 0 0 8px;
-  font-size: clamp(2.2rem, 6vw, 3.5rem);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-}
-.eyebrow {
-  margin: 0 0 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.8rem;
-  opacity: 0.8;
-}
-.lede {
-  margin: 0;
-  font-size: 1.15rem;
-  opacity: 0.92;
-  max-width: 40ch;
+
+.stars {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-main { padding: 48px 16px; }
-main h2 { margin: 0 0 20px; font-size: 1.4rem; }
+.aurora {
+  position: absolute;
+  inset: -20%;
+  z-index: -2;
+  filter: blur(70px);
+  opacity: 0.55;
+}
+.aurora span {
+  position: absolute;
+  width: 45vmax;
+  height: 45vmax;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  animation: drift 18s ease-in-out infinite alternate;
+}
+.aurora span:nth-child(1) { background: var(--glow-1); top: 5%;  left: 10%; }
+.aurora span:nth-child(2) { background: var(--glow-2); top: 30%; left: 50%; animation-duration: 22s; animation-delay: -6s; }
+.aurora span:nth-child(3) { background: var(--glow-3); top: 55%; left: 20%; animation-duration: 26s; animation-delay: -12s; opacity: 0.7; }
+
+@keyframes drift {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(8vw, -6vh) scale(1.15); }
+  100% { transform: translate(-6vw, 5vh) scale(0.9); }
+}
+
+.hero-inner { position: relative; }
+
+.eyebrow {
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+  position: relative;
+  margin: 0 0 16px;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(3rem, 12vw, 7rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  background: linear-gradient(100deg, #fff 0%, #d9ccff 20%, var(--glow-2) 40%, var(--gold) 55%, var(--glow-3) 70%, #fff 90%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 8s linear infinite;
+  filter: drop-shadow(0 0 30px rgba(124, 77, 255, 0.45));
+}
+
+@keyframes shimmer {
+  from { background-position: 100% 0; }
+  to   { background-position: -150% 0; }
+}
+
+.sparkle {
+  position: absolute;
+  width: 0.32em;
+  height: 0.32em;
+  top: -0.2em;
+  left: -0.25em;
+  fill: var(--gold);
+  filter: drop-shadow(0 0 10px var(--gold));
+  animation: twinkle 2.4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { transform: scale(0.7) rotate(0deg); opacity: 0.7; }
+  50%      { transform: scale(1.1) rotate(45deg); opacity: 1; }
+}
+
+.lede {
+  margin: 0 0 32px;
+  font-size: clamp(1.1rem, 2.4vw, 1.35rem);
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 36ch;
+}
+
+.cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cta:hover,
+.cta:focus-visible {
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3), 0 10px 40px rgba(255, 79, 216, 0.35);
+  outline: none;
+}
+
+/* ---------- Tools ---------- */
+
+main { padding: 72px 16px 56px; }
+
+main h2 {
+  margin: 0 0 24px;
+  font-family: var(--display);
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+}
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 16px;
+  gap: 18px;
 }
 
 .card {
+  --mx: 50%;
+  --my: 50%;
   position: relative;
   display: block;
-  padding: 20px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  padding: 22px;
+  border-radius: 16px;
   color: inherit;
   text-decoration: none;
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  background:
+    radial-gradient(420px circle at var(--mx) var(--my), rgba(124, 77, 255, 0.14), transparent 45%),
+    var(--surface);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
+
+/* Gradient border that lights up on hover */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--glow-1), var(--glow-2), var(--glow-3));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
 .card:hover,
 .card:focus-visible {
-  transform: translateY(-2px);
-  border-color: var(--accent);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+  box-shadow: 0 18px 50px rgba(124, 77, 255, 0.22);
   outline: none;
 }
-.card h3 { margin: 0 0 6px; font-size: 1.1rem; }
+.card:hover::before,
+.card:focus-visible::before { opacity: 1; }
+
+.card .icon {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  background: linear-gradient(135deg, rgba(124, 77, 255, 0.25), rgba(255, 79, 216, 0.2));
+}
+.card h3 { margin: 0 0 6px; font-family: var(--display); font-size: 1.15rem; }
 .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
 
-.card.soon { pointer-events: none; opacity: 0.75; }
+/* "Coming soon" cards: keep the hover shine, but don't act like links */
+.card.soon { cursor: default; }
 
 .badge {
-  display: inline-block;
-  margin-bottom: 10px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
   padding: 2px 10px;
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
 }
 
@@ -117,4 +265,33 @@ footer {
   color: var(--muted);
   font-size: 0.875rem;
   border-top: 1px solid var(--border);
+}
+
+/* ---------- Entrance animation ---------- */
+
+.js .reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition-delay: calc(var(--i, 0) * 90ms);
+}
+.js .reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- 404 page ---------- */
+
+.hero.compact { min-height: 100vh; }
+.hero.compact .title { font-size: clamp(2.4rem, 8vw, 4.5rem); }
+
+/* ---------- Respect reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .js .reveal { opacity: 1; transform: none; }
 }
