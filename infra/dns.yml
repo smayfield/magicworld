@@ -91,6 +91,47 @@ Resources:
       TTL: "3600"
       ResourceRecords: [webmail.secureserver.net]
 
+  ECname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub e.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [email.secureserver.net]
+
+  MobilemailCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub mobilemail.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [mobilemail-v01.prod.mesa1.secureserver.net]
+
+  PdaCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub pda.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [mobilemail-v01.prod.mesa1.secureserver.net]
+
+  # --- Other GoDaddy services ---
+  PayCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub pay.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [paylinks.commerce.godaddy.com]
+
+  # Intentionally not carried over from GoDaddy:
+  #   ftp CNAME @            - pointed at the GoDaddy parking page
+  #   _domainconnect CNAME   - GoDaddy-DNS-only feature, meaningless off GoDaddy nameservers
+
 Outputs:
   HostedZoneId:
     Value: !Ref HostedZone
