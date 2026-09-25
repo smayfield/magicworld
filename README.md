@@ -13,8 +13,8 @@ Placeholder home page and index of sites/tools hosted at [magicworld.com](https:
 
 ## Adding a tool to the index
 
-Copy one of the `<a class="card">` blocks in `site/index.html`, set its `href`, title and
-description, and drop the `soon` class and badge. Tools can also live in subfolders
+Copy one of the `<a class="card">` blocks in `site/index.html`, set its `href`, icon (any emoji),
+title and description, and drop the `soon` class and badge. Tools can also live in subfolders
 (e.g. `site/my-tool/index.html` → `https://magicworld.com/my-tool/`).
 
 ## Workflow

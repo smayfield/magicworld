@@ -5,37 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MagicWorld</title>
   <meta name="description" content="An index of sites and tools built at magicworld.com.">
+  <meta name="theme-color" content="#0b0820">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap">
   <link rel="stylesheet" href="/styles.css">
+  <script src="/main.js" defer></script>
 </head>
 <body>
   <header class="hero">
-    <div class="wrap">
-      <p class="eyebrow">magicworld.com</p>
-      <h1>MagicWorld</h1>
-      <p class="lede">A home for the sites and tools I build. More coming soon.</p>
+    <canvas class="stars" aria-hidden="true"></canvas>
+    <div class="aurora" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal">magicworld.com</p>
+      <h1 class="title reveal">
+        <svg class="sparkle" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5l2.4 6.9 7.1 2.4-7.1 2.4L12 20.1l-2.4-6.9-7.1-2.4 7.1-2.4z"/></svg>
+        MagicWorld
+      </h1>
+      <p class="lede reveal">A home for the sites and tools I build. More coming soon.</p>
+      <a class="cta reveal" href="#tools">Explore the tools <span aria-hidden="true">↓</span></a>
     </div>
   </header>
 
-  <main class="wrap">
-    <h2>Sites &amp; tools</h2>
+  <main id="tools" class="wrap">
+    <h2 class="reveal">Sites &amp; Tools</h2>
 
-    <!-- To add a tool: copy a card below, set href, title, and description.
+    <!-- To add a tool: copy a card below, set href, icon, title, and description.
          Remove the "soon" class and the badge once it's live. -->
     <div class="grid">
-      <a class="card soon" href="#" aria-disabled="true">
+      <a class="card soon reveal" href="#" aria-disabled="true">
+        <span class="icon" aria-hidden="true">🪄</span>
         <span class="badge">Coming soon</span>
         <h3>Tool one</h3>
         <p>A short description of what this tool does.</p>
       </a>
 
-      <a class="card soon" href="#" aria-disabled="true">
+      <a class="card soon reveal" href="#" aria-disabled="true">
+        <span class="icon" aria-hidden="true">🔮</span>
         <span class="badge">Coming soon</span>
         <h3>Tool two</h3>
         <p>A short description of what this tool does.</p>
       </a>
 
-      <a class="card soon" href="#" aria-disabled="true">
+      <a class="card soon reveal" href="#" aria-disabled="true">
+        <span class="icon" aria-hidden="true">✨</span>
         <span class="badge">Coming soon</span>
         <h3>Tool three</h3>
         <p>A short description of what this tool does.</p>
@@ -46,6 +63,5 @@
   <footer class="wrap">
     <p>&copy; <span id="year">2026</span> MagicWorld</p>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
