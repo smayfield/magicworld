@@ -1,0 +1,101 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  magicworld.com Route 53 hosted zone. Carries over the existing GoDaddy
+  (secureserver.net) email records so mail keeps working after the
+  nameserver switch. Website alias records live in site.yml.
+
+Parameters:
+  DomainName:
+    Type: String
+    Default: magicworld.com
+
+Resources:
+  HostedZone:
+    Type: AWS::Route53::HostedZone
+    Properties:
+      Name: !Ref DomainName
+
+  # --- Email (GoDaddy Workspace / secureserver.net) ---
+  MX:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Ref DomainName
+      Type: MX
+      TTL: "3600"
+      ResourceRecords:
+        - "0 smtp.secureserver.net."
+        - "10 mailstore1.secureserver.net."
+
+  RootTxt:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Ref DomainName
+      Type: TXT
+      TTL: "3600"
+      ResourceRecords:
+        - '"D5828854"'
+
+  MailCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub mail.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [pop.secureserver.net]
+
+  PopCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub pop.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [pop.secureserver.net]
+
+  ImapCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub imap.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [imap.secureserver.net]
+
+  SmtpCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub smtp.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [smtp.secureserver.net]
+
+  EmailCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub email.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [email.secureserver.net]
+
+  WebmailCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZone
+      Name: !Sub webmail.${DomainName}
+      Type: CNAME
+      TTL: "3600"
+      ResourceRecords: [webmail.secureserver.net]
+
+Outputs:
+  HostedZoneId:
+    Value: !Ref HostedZone
+    Export:
+      Name: magicworld-HostedZoneId
+  NameServers:
+    Description: Set these as custom nameservers at GoDaddy.
+    Value: !Join [", ", !GetAtt HostedZone.NameServers]
