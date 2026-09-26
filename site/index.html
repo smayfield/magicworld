@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MagicWorld</title>
   <meta name="description" content="An index of sites and tools built at magicworld.com.">
-  <meta name="theme-color" content="#0b0820">
+  <meta name="theme-color" content="#0c2a1c">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="/styles.css">
   <script src="/main.js" defer></script>
 </head>
 <body>
   <header class="hero">
-    <canvas class="stars" aria-hidden="true"></canvas>
-    <div class="aurora" aria-hidden="true">
+    <div class="moon" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true">
       <span></span><span></span><span></span>
     </div>
+    <canvas class="fireflies" aria-hidden="true"></canvas>
 
     <div class="wrap hero-inner">
       <p class="eyebrow reveal">magicworld.com</p>
@@ -27,8 +28,45 @@
         MagicWorld
       </h1>
       <p class="lede reveal">A home for the sites and tools I build. More coming soon.</p>
-      <a class="cta reveal" href="#tools">Explore the tools <span aria-hidden="true">↓</span></a>
+      <a class="cta reveal" href="#tools">Explore the tools <span class="bob" aria-hidden="true">↓</span></a>
     </div>
+
+    <svg class="forest" viewBox="0 0 1200 180" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <!-- Far hills and trees -->
+      <path fill="#14402b" d="M0 180V110c80-30 160-40 250-22s170 30 260 8 190-50 290-30 200 40 400 14v100z"/>
+      <g fill="#113826">
+        <path d="M90 120l30-80 30 80z"/><path d="M160 125l24-62 24 62z"/>
+        <path d="M430 118l34-90 34 90z"/><path d="M500 124l24-60 24 60z"/>
+        <path d="M790 116l30-84 30 84z"/><path d="M1040 120l34-88 34 88z"/><path d="M1110 126l22-56 22 56z"/>
+      </g>
+      <!-- Near ground -->
+      <path fill="#0a2618" d="M0 180v-44c100-16 200-10 320 0s220 16 330 2 230-22 330-10 160 14 220 8v44z"/>
+      <!-- Round bushy trees -->
+      <g fill="#0a2618">
+        <rect x="246" y="96" width="10" height="50"/><circle cx="251" cy="88" r="34"/><circle cx="228" cy="104" r="22"/><circle cx="276" cy="104" r="22"/>
+        <rect x="946" y="92" width="10" height="54"/><circle cx="951" cy="82" r="38"/><circle cx="924" cy="100" r="24"/><circle cx="980" cy="100" r="24"/>
+      </g>
+      <!-- Toadstools -->
+      <g>
+        <rect x="372" y="138" width="10" height="16" rx="3" fill="#f3ead2"/>
+        <path d="M358 140a19 14 0 0 1 38 0z" fill="#e0533d"/>
+        <circle cx="370" cy="132" r="2.6" fill="#fff"/><circle cx="382" cy="130" r="2" fill="#fff"/><circle cx="389" cy="136" r="1.8" fill="#fff"/>
+
+        <rect x="402" y="146" width="7" height="10" rx="2" fill="#f3ead2"/>
+        <path d="M393 148a12.5 9 0 0 1 25 0z" fill="#e0533d"/>
+        <circle cx="402" cy="143" r="1.8" fill="#fff"/><circle cx="410" cy="144" r="1.4" fill="#fff"/>
+
+        <rect x="786" y="136" width="10" height="18" rx="3" fill="#f3ead2"/>
+        <path d="M772 138a19 14 0 0 1 38 0z" fill="#f2b33d"/>
+        <circle cx="784" cy="130" r="2.4" fill="#fff"/><circle cx="797" cy="129" r="2" fill="#fff"/>
+      </g>
+      <!-- Grass tufts -->
+      <g stroke="#1d5a3a" stroke-width="3" stroke-linecap="round" fill="none">
+        <path d="M60 150q4-14 0-24M66 150q6-10 12-18M54 150q-6-10-10-16"/>
+        <path d="M560 148q4-14 0-24M566 148q6-10 12-18M554 148q-6-10-10-16"/>
+        <path d="M1130 150q4-14 0-24M1136 150q6-10 12-18M1124 150q-6-10-10-16"/>
+      </g>
+    </svg>
   </header>
 
   <main id="tools" class="wrap">
@@ -45,14 +83,14 @@
       </a>
 
       <a class="card soon reveal" href="#" aria-disabled="true">
-        <span class="icon" aria-hidden="true">🔮</span>
+        <span class="icon" aria-hidden="true">🍄</span>
         <span class="badge">Coming soon</span>
         <h3>Tool two</h3>
         <p>A short description of what this tool does.</p>
       </a>
 
       <a class="card soon reveal" href="#" aria-disabled="true">
-        <span class="icon" aria-hidden="true">✨</span>
+        <span class="icon" aria-hidden="true">🐸</span>
         <span class="badge">Coming soon</span>
         <h3>Tool three</h3>
         <p>A short description of what this tool does.</p>
@@ -61,7 +99,7 @@
   </main>
 
   <footer class="wrap">
-    <p>&copy; <span id="year">2026</span> MagicWorld</p>
+    <p>&copy; <span id="year">2026</span> MagicWorld <span class="leaf" aria-hidden="true">🌿</span></p>
   </footer>
 </body>
 </html>
