@@ -36,6 +36,8 @@
       var angle = (Math.PI * 2 * i) / 8 + Math.random() * 0.5;
       var dist = 30 + Math.random() * 30;
       p.className = 'pop';
+      p.setAttribute('aria-hidden', 'true');
+      p.setAttribute('role', 'presentation');
       p.style.left = e.clientX + 'px';
       p.style.top = e.clientY + 'px';
       p.style.setProperty('--dx', Math.cos(angle) * dist + 'px');
@@ -53,6 +55,35 @@
   var flies = [];
   var w = 0, h = 0;
   var mouse = null;
+  var glowSprites = {};
+
+  function getGlowSprite(radius) {
+    var key = radius.toFixed(1);
+    if (glowSprites[key]) return glowSprites[key];
+
+    var glowRadius = radius * 7;
+    var size = Math.ceil(glowRadius * 2);
+    var sprite = document.createElement('canvas');
+    var spriteCtx = sprite.getContext('2d');
+    var center = size / 2;
+    var gradient;
+
+    sprite.width = size;
+    sprite.height = size;
+
+    gradient = spriteCtx.createRadialGradient(center, center, 0, center, center, glowRadius);
+    gradient.addColorStop(0, 'rgba(244, 255, 154, 1)');
+    gradient.addColorStop(0.25, 'rgba(182, 243, 106, 0.5)');
+    gradient.addColorStop(1, 'rgba(182, 243, 106, 0)');
+
+    spriteCtx.fillStyle = gradient;
+    spriteCtx.beginPath();
+    spriteCtx.arc(center, center, glowRadius, 0, Math.PI * 2);
+    spriteCtx.fill();
+
+    glowSprites[key] = sprite;
+    return sprite;
+  }
 
   function resize() {
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -64,13 +95,15 @@
     var count = Math.max(18, Math.min(60, Math.round((w * h) / 16000)));
     flies = [];
     for (var i = 0; i < count; i++) {
+      var radius = Math.random() * 1.6 + 1.2;
       flies.push({
         x: Math.random() * w,
         y: Math.random() * h,
         vx: 0,
         vy: 0,
         heading: Math.random() * Math.PI * 2,
-        r: Math.random() * 1.6 + 1.2,
+        r: radius,
+        sprite: getGlowSprite(radius),
         phase: Math.random() * Math.PI * 2,
         speed: Math.random() * 0.003 + 0.0015
       });
@@ -100,14 +133,9 @@
 
       var glow = 0.5 + 0.5 * Math.sin(t * f.speed + f.phase);
       var a = 0.15 + 0.85 * glow * glow;
-      var g = ctx.createRadialGradient(f.x, f.y, 0, f.x, f.y, f.r * 7);
-      g.addColorStop(0, 'rgba(244, 255, 154,' + a + ')');
-      g.addColorStop(0.25, 'rgba(182, 243, 106,' + a * 0.5 + ')');
-      g.addColorStop(1, 'rgba(182, 243, 106, 0)');
-      ctx.fillStyle = g;
-      ctx.beginPath();
-      ctx.arc(f.x, f.y, f.r * 7, 0, Math.PI * 2);
-      ctx.fill();
+      ctx.globalAlpha = a;
+      ctx.drawImage(f.sprite, f.x - f.sprite.width / 2, f.y - f.sprite.height / 2);
+      ctx.globalAlpha = 1;
     }
   }
 
