@@ -298,6 +298,18 @@ main h2 {
 
 .card h3 { margin: 0 0 6px; font-family: var(--display); font-weight: 600; font-size: 1.3rem; }
 .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.card .domain {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  overflow-wrap: anywhere;
+}
+.card .domain::after { content: " →"; transition: margin-left 0.2s ease; }
+.card:hover .domain::after,
+.card:focus-visible .domain::after { margin-left: 4px; }
 
 /* "Coming soon" cards: keep the hover fun, but don't act like links */
 .card.soon { cursor: default; }
