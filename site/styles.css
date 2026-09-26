@@ -137,7 +137,11 @@ a { color: var(--accent); }
 .title {
   position: relative;
   display: inline-block;
-  margin: 0 0 16px;
+  /* background-clip: text only paints glyphs inside this box, so pad it
+     below the baseline or the "g" descender renders transparent. The
+     negative margin cancels the padding so the layout doesn't shift. */
+  padding: 0 0.04em 0.22em;
+  margin: 0 0 calc(16px - 0.22em);
   font-family: var(--display);
   font-weight: 700;
   font-size: clamp(3.2rem, 13vw, 7.5rem);
