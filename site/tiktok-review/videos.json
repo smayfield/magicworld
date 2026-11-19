@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:15:04Z",
+ "updated": "2026-11-19T15:23:27Z",
  "videos": [
   {
    "id": "ZPN8jbfgB",
@@ -7,7 +7,6 @@
    "sent": "2026-11-19T04:34:49Z",
    "note": "Open Jarvis",
    "creator": "bengusberg",
-   "caption": "Time to join the Avengers #ai #aitips #claude #founder #startup",
    "summary": "Ben Gusberg shows an AI assistant you noted as \"Open Jarvis.\" The caption only says \"Time to join the Avengers,\" so watch it to see which tool it is.",
    "topic": "ai"
   },
@@ -17,7 +16,6 @@
    "sent": "2026-11-19T04:20:17Z",
    "note": "Ben Gusberg on TikTok",
    "creator": "bengusberg",
-   "caption": "Give them a watch! #founder #ai #aitips #startup #claude",
    "summary": "Ben Gusberg recommends something to watch for founders using Claude. The caption doesn't say what, so this one needs a look.",
    "topic": "ai"
   },
@@ -27,7 +25,6 @@
    "sent": "2026-11-19T01:07:49Z",
    "note": "Erase me skill",
    "creator": "seymourofdevin",
-   "caption": "Your phone number is sitting on hundreds of data broker sites right now. There is a skill that scrubs all of it and it costs nothing to use. You drop it into Claude, answer a few questions, and it goes to work. It hunts down every people search site, finds their opt out pages, and submits every removal request on your behalf. It also writes legally backed deletion letters citing your privacy rights. Then it circles back to confirm your information was deleted. Every week it rescans in case they quietly relist you. All of it logged in a live dashboard.",
    "summary": "A free Claude skill that finds your details on data broker and people-search sites, files the removal requests and deletion letters for you, then rescans weekly to catch relistings. The creator offers the link by DM.",
    "topic": "ai"
   },
@@ -37,7 +34,6 @@
    "sent": "2026-11-18T20:54:13Z",
    "note": "Agents",
    "creator": "jp.middleton",
-   "caption": "Go to my Instagram, DM me 'SWARM' and I'll send it over. Link's in bio.",
    "summary": "You noted this as \"Agents.\" The caption only offers a \"SWARM\" resource by Instagram DM, so it is likely about running a swarm of agents, but the video itself will tell you.",
    "topic": "ai"
   },
@@ -47,7 +43,6 @@
    "sent": "2026-11-18T18:40:30Z",
    "note": "Faster ci",
    "creator": "of1ai",
-   "caption": "",
    "summary": "You noted this as \"Faster ci.\" It's a 3-minute video from James (@of1ai) with no caption, so I can't tell more than your note.",
    "topic": "ai"
   },
@@ -57,7 +52,6 @@
    "sent": "2026-11-18T11:42:58Z",
    "note": "Find this video",
    "creator": "nsaraev.archive",
-   "caption": "An Anthropic engineer built her entire Claude Code setup live in about 10 minutes, starting from a completely empty terminal. First she sets up her agents, then puts them into loops, moves to graphs and ends with a system that improves itself. Her take: prompting is basically over, 95% of Anthropic engineers already run self-improving loops, and graphs are next. #claudecode #anthropic #aiagents",
    "summary": "An Anthropic engineer builds a Claude Code setup from an empty terminal in about 10 minutes: agents, then loops, then graphs, ending in a system that improves itself. Her point is that building the system around Claude now matters more than better prompts.",
    "topic": "ai"
   },
@@ -67,7 +61,6 @@
    "sent": "2026-11-18T04:22:00Z",
    "note": "ai.field.notes on TikTok",
    "creator": "ai.field.notes",
-   "caption": "I took a risk and let Claude build what it wanted to overnight, and I'm not mad about it. It ended up building something I wouldn't have thought of that has a huge upside for me. I might build this into a part of my daily routine with Claude: letting it just do some useful stuff for me that it gets to pick. @Claude #ai #vibecoding #computer #vibecoding #productivity",
    "summary": "The creator let Claude build whatever it wanted overnight and got something useful they wouldn't have thought of. They suggest making a daily \"Claude picks the task\" habit.",
    "topic": "ai"
   },
@@ -77,7 +70,6 @@
    "sent": "2026-11-16T12:46:30Z",
    "note": "fksabdieldanni on TikTok",
    "creator": "fksabdieldanni",
-   "caption": "I Tried 100+ Github Repos for Claude. These 6 Are the Best · Part 1 #claude #github #these #triedgithub #githubrepos",
    "summary": "Part 1 of a roundup of the six best GitHub repos for Claude, picked from 100+ the creator tried.",
    "topic": "ai"
   },
@@ -87,7 +79,6 @@
    "sent": "2026-11-16T04:04:19Z",
    "note": "Dominion.O. ✨️✨️ UGC Creator on TikTok",
    "creator": "domwon2020",
-   "caption": "",
    "summary": "No caption from this UGC creator, so I can't tell what it covers.",
    "topic": "other"
   },
@@ -97,7 +88,6 @@
    "sent": "2026-11-16T03:55:17Z",
    "note": "aitoolvaultly on TikTok",
    "creator": "aitoolvaultly",
-   "caption": "Claude secret codes: pick your mode 🤫🔥 Start your prompt with keywords like /devil, /pitch, /compare, /scout, /critique, /brief or /teacher and watch how Claude shapes its answer. Steelman the opposition, find blind spots, get the shortest answer or learn with a mentor. Save this 📌 Which one are you testing first? 👇 #claude #claudeai #anthropic #claudeprompts #promptengineering",
    "summary": "Prompt keywords for Claude like /devil, /pitch, /compare, /critique, /brief and /teacher that steer the style of the answer, such as steelmanning or finding blind spots.",
    "topic": "ai"
   },
@@ -107,7 +97,6 @@
    "sent": "2026-11-15T23:23:47Z",
    "note": "Maverick Maltin | AI & ChatGPT on TikTok",
    "creator": "maverickgpt",
-   "caption": "What happens when you ask Claude to make your Wi-Fi 10 times faster? I tried this and my speed literally doubled in less than 10 minutes. Here’s how: Go to Claude → Code Prompt 1: “Connect to my router and find everything that’s slowing my Wi-Fi down.” Type in the router password from the sticker on the back. Claude runs a speed test, finds every app eating up your internet in the background, and checks if your neighbor’s Wi-Fi is fighting yours. Mine found 23 fixes. I said yes, it ran the speed test again, and it came back twice as fast. Here’s the trick: Prompt 2: “Now show me every device c",
    "summary": "Using Claude Code to check your home router and find what's slowing your Wi-Fi, with a speed test and a list of bandwidth hogs. It asks you to type your router password into Claude, so weigh that before trying it.",
    "topic": "ai"
   },
@@ -117,7 +106,6 @@
    "sent": "2026-11-14T14:36:56Z",
    "note": "glenshustle on TikTok",
    "creator": "glenshustle",
-   "caption": "",
    "summary": "From glenshustle, who posts Claude business prompts. TikTok wouldn't show this one without signing in, so I couldn't read it.",
    "topic": "ai"
   },
@@ -127,7 +115,6 @@
    "sent": "2026-11-14T14:31:47Z",
    "note": "Yasir Ali | AI Engineer on TikTok",
    "creator": "yasir_ai",
-   "caption": "#aiagent #cluade #ai #githubrepo",
    "summary": "Yasir Ali on an AI agent GitHub repo. The caption is only hashtags, so watch it for the repo name.",
    "topic": "ai"
   },
@@ -137,7 +124,6 @@
    "sent": "2026-11-14T14:30:41Z",
    "note": "Frank Andrade on TikTok",
    "creator": "artificialcorner",
-   "caption": "Claude does most of my work, but there are things it can't do. Gemini fills each gap: 1. Claude can't make an image. Gemini's fix: Nano Banana. I connected Claude to Nano Banana to make 4 images at once, in the style I use. Here's the prompt I use: \"In this folder, read my Gemini API key from gemini-key.txt and never show it on screen. Ask the Gemini model for 4 images at once, in 16:9, from this prompt: [your image prompt]. Save them in a folder named output\" 2. Claude can't watch a video. Gemini's fix: it watches the whole thing. I connected Claude to Gemini to watch my videos and turn them",
    "summary": "Where Claude falls short and how Gemini fills each gap, starting with connecting Claude to Gemini's Nano Banana image model to make four images at once.",
    "topic": "ai"
   },
@@ -147,7 +133,6 @@
    "sent": "2026-11-14T14:29:18Z",
    "note": "EZ Backend on TikTok",
    "creator": "ezbackend",
-   "caption": "TOP 10 CLAUDE CODE SKILLS boots your productivity #programming #softwareengineer #backend #claudecode #aiagents",
    "summary": "A top 10 list of Claude Code skills for productivity.",
    "topic": "ai"
   },
@@ -157,7 +142,6 @@
    "sent": "2026-11-14T14:26:53Z",
    "note": "Oxana Ray | AI for Business on TikTok",
    "creator": "oxana__ray",
-   "caption": "These 9 powerful Skills can transform how you prompt, write, think, research, and build. Save this cheat sheet for later! 📌 Your Claude Skills Toolkit: /opus-optimize – Optimize prompts for Opus /fable – Optimize prompts for Fable /prompt-master – Master prompt engineering /how-to – Get step-by-step guidance /grill-me – Challenge your ideas /personal-voice – Write in your own voice /anti-ai – Make writing sound more natural /write-a-skill – Build your own Claude Skills /handoff – Transfer context between AI conversations 💡 Pro tip: Turn these into actual Claude Skills using SKILL.md files so C",
    "summary": "A cheat sheet of nine Claude skills for prompting, writing, research and building, such as prompt optimizers, a \"grill me\" idea challenger and a personal-voice writer.",
    "topic": "ai"
   },
@@ -167,7 +151,6 @@
    "sent": "2026-11-14T14:24:46Z",
    "note": "aitoolvaultly on TikTok",
    "creator": "aitoolvaultly",
-   "caption": "22 Claude prompt keywords for creators and marketers 🚀🔥 Add /brainstorm, /hooks, /storyboard, /script, /contentplan, /repurpose, /carousel, /reel, /audience, /persona, /funnel or /salespitch to your prompt and watch how Claude shapes its answer. Work smarter, create faster. Save this 📌 Which one are you testing first? 👇 #claude #claudeai #anthropic #claudeprompts #promptengineering",
    "summary": "22 Claude prompt keywords for creators and marketers, like /hooks, /script, /contentplan, /repurpose and /funnel.",
    "topic": "ai"
   },
@@ -177,7 +160,6 @@
    "sent": "2026-11-14T14:17:46Z",
    "note": "Better career sites",
    "creator": "mal_wfh",
-   "caption": "Rating remote job platforms #remotework #remotejob #wfh #jobsearch #workfromhome",
    "summary": "A rating of remote job sites, which you noted as \"Better career sites.\"",
    "topic": "other"
   },
@@ -187,7 +169,6 @@
    "sent": "2026-11-14T14:05:32Z",
    "note": "Devin | The AI Coach on TikTok",
    "creator": "devinkarpes",
-   "caption": "Comment “MEETINGS” and I’ll send the guide. #ai #claude #claudemeetings #anthropic #aitips",
    "summary": "Devin Karpes on using Claude for meetings, with a guide offered if you comment \"MEETINGS.\"",
    "topic": "ai"
   },
@@ -197,7 +178,6 @@
    "sent": "2026-11-14T12:28:36Z",
    "note": "Vanessa | Coordination AI on TikTok",
    "creator": "vanessameyersweden",
-   "caption": "The groan zone is real. It sucks and AI doesn’t make it any easier. AI is terrible for a team that can’t make decisions effectively. Being able to converge and guide a group through complexity is a skill most leaders struggle with. But it’s where the bottleneck is accumulating. #coordinationai",
    "summary": "Vanessa Meyer argues AI doesn't help a team that can't make decisions, and that guiding a group through the messy middle of a decision is the real bottleneck.",
    "topic": "ai"
   },
@@ -207,7 +187,6 @@
    "sent": "2026-11-10T03:48:22Z",
    "note": "Mini megatron",
    "creator": "yousef9999ih",
-   "caption": "",
    "summary": "No caption. You noted it as \"Mini megatron,\" likely a small Transformers build.",
    "topic": "other"
   },
@@ -217,7 +196,6 @@
    "sent": "2026-11-10T03:32:16Z",
    "note": "Mini soundwave",
    "creator": "yousef9999ih",
-   "caption": "",
    "summary": "No caption. You noted it as \"Mini soundwave,\" a companion to the Mini Megatron post.",
    "topic": "other"
   },
@@ -227,7 +205,6 @@
    "sent": "2026-11-08T21:39:10Z",
    "note": "Recipe sausage potatoes corn beans",
    "creator": "delishanddecorfl",
-   "caption": "Easy weeknight meal! Full written recipe at  #easyrecipe #dinner #cooking #food #yummy",
    "summary": "An easy weeknight one-pan recipe of sausage, potatoes, corn and green beans. The creator's site has the written recipe.",
    "topic": "other"
   },
@@ -237,7 +214,6 @@
    "sent": "2026-11-06T23:11:43Z",
    "note": "Pamela Rice on TikTok",
    "creator": "pamela.rice71",
-   "caption": "comment ASDSTE-100 ASDSTE-100 is a unique AI prompting trick borrowed from aerospace manuals that boosts clarity and readability by enforcing controlled language. See how it transforms how you prompt LLMs and discover new ways to generate diagrams, webpages, and explainer videos with smarter AI outputs. #AI #PromptingTips #TechInnovation #LanguageModel #AITools",
    "summary": "A prompting trick borrowed from aerospace manuals (ASD-STE100 Simplified Technical English) that forces plain, controlled language for clearer AI output.",
    "topic": "ai"
   },
@@ -247,7 +223,6 @@
    "sent": "2026-11-06T02:00:47Z",
    "note": "QwikTwik on TikTok",
    "creator": "qwiktwik.com",
-   "caption": "Why do Windows menus feel slow? Every submenu waits 400 milliseconds before it opens, and you can turn that delay off. How to make menus open instantly on Windows 10 and 11: 1. Press Win + R, type regedit and press Enter 2. Go to HKEY_CURRENT_USER\\Control Panel\\Desktop 3. Open MenuShowDelay and change 400 to 0 4. Restart your PC 300+ tweaks like this in QwikTwik. #windows11 #pctips #techtips #regedit #gamingpc",
    "summary": "Make Windows menus open instantly by setting MenuShowDelay from 400 to 0 in the registry, then restarting.",
    "topic": "other"
   },
@@ -257,7 +232,6 @@
    "sent": "2026-11-05T20:49:32Z",
    "note": "Audible on TikTok",
    "creator": "Audible",
-   "caption": "Andy Weir Presents EXOPLANET, an audio thriller. Anthony Mackie. Ariana DeBose. John Leguizamo.",
    "summary": "An Audible ad for Exoplanet, an Andy Weir audio thriller with Anthony Mackie, Ariana DeBose and John Leguizamo.",
    "topic": "other"
   },
@@ -267,7 +241,6 @@
    "sent": "2026-11-05T14:22:34Z",
    "note": "QwikTwik on TikTok",
    "creator": "qwiktwik.com",
-   "caption": "",
    "summary": "A QwikTwik Windows tip. TikTok said it isn't available in this region, so I couldn't read it.",
    "topic": "other"
   },
@@ -277,7 +250,6 @@
    "sent": "2026-11-05T14:20:15Z",
    "note": "Veronica Roy on TikTok",
    "creator": "iamveronicaroy",
-   "caption": "",
    "summary": "From Veronica Roy. TikTok wouldn't show this one without signing in, so I couldn't read it.",
    "topic": "other"
   },
@@ -287,7 +259,6 @@
    "sent": "2026-11-04T03:28:42Z",
    "note": "Emma 🍎 on TikTok",
    "creator": "emmatalkingfin",
-   "caption": "",
    "summary": "A post from Emma (@emmatalkingfin) with no caption, so I can't tell what it covers.",
    "topic": "other"
   },
@@ -297,7 +268,6 @@
    "sent": "2026-11-04T02:14:25Z",
    "note": "Hamidullah Khan, PhD on TikTok",
    "creator": "iamkhanphd",
-   "caption": "",
    "summary": "A post from Hamidullah Khan, PhD. No caption, so I can't tell what it covers.",
    "topic": "other"
   },
@@ -307,7 +277,6 @@
    "sent": "2026-11-03T02:09:24Z",
    "note": "Bashi Smith on TikTok",
    "creator": "bashifuirkashi",
-   "caption": "Bookmark this if you want a real shot at a $200K AI Engineer role. Most SWEs are overcomplicating the transition. You don’t need a PhD. You need the right roadmap and proof. Here’s exactly what I’d do: 1️⃣ Go to the AI Engineering Hub 2️⃣ Start with the ML math section (focus on intuition, not memorization) 3️⃣ Work your way down to project-based learning 4️⃣ Then build 1 project from EACH advanced section That’s it. This gives you what companies actually care about: → understanding how models work → knowing when to use what → proof you can build real AI systems After that, it’s just: → positi",
    "summary": "A roadmap for software engineers moving into AI engineering roles: start with the ML math section of an AI Engineering Hub, then work through projects to build proof.",
    "topic": "ai"
   },
@@ -317,7 +286,6 @@
    "sent": "2026-10-31T20:45:01Z",
    "note": "AI Slacker on TikTok",
    "creator": "ai_slacker",
-   "caption": "",
    "summary": "A post from AI Slacker with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -327,7 +295,6 @@
    "sent": "2026-10-31T18:58:15Z",
    "note": "Premortem",
    "creator": "ai_slacker",
-   "caption": "",
    "summary": "You noted this as \"Premortem.\" It's from AI Slacker with no caption, likely a prompt that has AI imagine how a plan fails before you start.",
    "topic": "ai"
   },
@@ -337,7 +304,6 @@
    "sent": "2026-10-31T17:17:19Z",
    "note": "Agents",
    "creator": "bashifuirkashi",
-   "caption": "Learning AI Agents in 1 week! Comment “Agents” and I’ll send you a full AI engineering roadmap video and the link to join a community where you can get a personalized learning roadmap, and daily calls with working AI engineers and recruiters!",
    "summary": "A pitch for learning AI agents in a week, with a roadmap and a paid community offered by comment.",
    "topic": "ai"
   },
@@ -347,7 +313,6 @@
    "sent": "2026-10-29T01:20:16Z",
    "note": "Nathan Hodgson on TikTok",
    "creator": "nathanhodgson.ai",
-   "caption": "Polsia AI Is Building Me An AI Powered Company #ai #aitools #artificialintelligence #polsia #aiagents",
    "summary": "Nathan Hodgson tries Polsia, an AI tool that claims to build and run a company for you.",
    "topic": "ai"
   },
@@ -357,7 +322,6 @@
    "sent": "2026-10-28T22:38:23Z",
    "note": "v on TikTok",
    "creator": "martiendejong_dev",
-   "caption": "",
    "summary": "A post from a developer (@martiendejong_dev) with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -367,7 +331,6 @@
    "sent": "2026-10-28T22:06:09Z",
    "note": "Agent to find customers",
    "creator": "jackroberts____",
-   "caption": "Harvey:  Cold email isn't dead. Lazy cold email is. Harvey does the homework first. It finds your leads. It reads their websites. It picks the best fits. Then it writes about something real. Something only that business would notice. When they reply, it keeps going. Every thread heads toward a booked call. Like a sales rep who never skips research. Even on email number five hundred. It runs on your Claude plan. Keep the agency fee. #claudecode #harvey #coldemail #leadgeneration #aiagent",
    "summary": "Harvey, an open-source agent on GitHub that finds leads, reads their websites, picks the best fits and writes personal cold emails, then follows up toward a booked call.",
    "topic": "ai"
   },
@@ -377,7 +340,6 @@
    "sent": "2026-10-28T22:21:53Z",
    "note": "glenshustle on TikTok",
    "creator": "glenshustle",
-   "caption": "👇😎 USE THESE 4 CLAUDE PROMPTS IN THIS ORDER 1️⃣ FIND MY $500/DAY MODEL Based on what you know about me, what's ONE realistic online business I could build toward averaging $500/day? If you don't know enough, interview me one question at a time about my skills, experience, time and budget. Give me ONE business, ONE offer and ONE way to find customers. 2️⃣ FIND SOMEONE DOING IT Find examples of people or businesses using this model successfully. Separate verified facts from assumptions. Show me what they sell, who buys it, how they attract customers and what I could ethically model without copyi",
    "summary": "Four Claude prompts to use in order to pick one realistic online business, find someone already doing it, and plan your offer and customers.",
    "topic": "ai"
   },
@@ -387,7 +349,6 @@
    "sent": "2026-10-28T14:15:38Z",
    "note": "Claude job hunter",
    "creator": "bengusberg",
-   "caption": "Get your dream job with this #AI #aitips #claude #founder #startup",
    "summary": "Ben Gusberg on using Claude in a job search, which you noted as \"Claude job hunter.\"",
    "topic": "ai"
   },
@@ -397,7 +358,6 @@
    "sent": "2026-10-27T23:38:54Z",
    "note": "Claude advisor",
    "creator": "bengusberg",
-   "caption": "Most people don’t know this exists! #AI #aitips #claude #founder #startup",
    "summary": "Ben Gusberg on a Claude feature he says most people don't know about, which you noted as \"Claude advisor.\"",
    "topic": "ai"
   },
@@ -407,7 +367,6 @@
    "sent": "2026-10-27T23:36:46Z",
    "note": "YouTube video open montage",
    "creator": "duncanrogoff",
-   "caption": "What if you could turn one idea into a complete video using an AI coding assistant? 🎬 Meet OpenMontage, an open-source video production system that can handle research, scripting, visuals, narration, editing, and rendering. Here’s what makes it interesting: ✍️ Turn a topic into a video concept and script 🎥 Build scenes using footage or AI-generated visuals 🎙️ Add AI narration and music ⚡ Assemble and render the finished video It works with Claude Code, Cursor, Codex, and other compatible AI coding assistants. OpenMontage is free and open source, but some third-party AI models and premium voice",
    "summary": "OpenMontage, an open-source system that uses an AI coding assistant to turn one idea into a finished video: research, script, visuals, narration, editing and rendering.",
    "topic": "ai"
   },
@@ -417,7 +376,6 @@
    "sent": "2026-10-27T23:01:36Z",
    "note": "Claude arena",
    "creator": "jackroberts____",
-   "caption": "Arena (GitHub):  One Claude gives you one answer. A hundred Claudes have to earn it. Arena is a free Claude Code skill. Type /arena with your task. 100 copies get the same job. Each one thinks about it differently. They pair off. They attack each other's answers. A judge knocks out each loser. 100, then 50, then 25, down to one. Like a cooking show with 100 chefs. Only one dish makes it to the table. You get the winner. Plus every attack it survived. It burns through a lot of Claude usage. So save it for the questions that matter. #claude #claudeco",
    "summary": "Arena, a free Claude Code skill that runs 100 copies of Claude on your task and has them knock each other out in rounds until one best answer is left.",
    "topic": "ai"
   },
@@ -427,7 +385,6 @@
    "sent": "2026-10-25T21:17:57Z",
    "note": "Its AI Guide on TikTok",
    "creator": "itsaiguide",
-   "caption": "",
    "summary": "A post from Its AI Guide with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -437,7 +394,6 @@
    "sent": "2026-10-25T20:12:23Z",
    "note": "Faceless YouTube",
    "creator": "adamdelduca",
-   "caption": "Man to man If you know an extra $7,000 a month would change everything for you, before you go to bed tonight open Claude and do this First ask it to give you 25 faceless YouTube automation niches with high demand and low competition, ranked easiest to hardest to monetize, and to tell you which ones don't need you on camera Pick your niche before you produce a single video Next ask it for 20 high intrigue topics people could not resist clicking on 80% of views come from browse, so these topics carry the weight of the whole channel Then ask it to write a 10 minute faceless script with a hook in",
    "summary": "Claude prompts for starting a faceless YouTube channel: find low-competition niches, then topics and scripts.",
    "topic": "other"
   },
@@ -447,7 +403,6 @@
    "sent": "2026-10-25T01:13:43Z",
    "note": "Cat pee?",
    "creator": "surepuster",
-   "caption": "Mount Semeru erupted again in the afternoon on Wednesday 19-11-2025 at ± 16:00 pm #gunungsemerulumajang #gunungsemerumeletus #fyp #usa",
    "summary": "You noted this as \"Cat pee?\", but the caption is about Mount Semeru erupting in Indonesia, so the link may not be the video you meant.",
    "topic": "other"
   },
@@ -457,7 +412,6 @@
    "sent": "2026-10-24T00:41:51Z",
    "note": "Beau Johnson on TikTok",
    "creator": "buildingnpublic",
-   "caption": "Ideogram's first vector model gives you a real SVG, not pixels: zoom in forever, swap the palette, edit one shape. #AI #Ideogram #SVG #GraphicDesign #AIArt",
    "summary": "Ideogram's first vector model makes real SVG files you can scale, recolor and edit shape by shape.",
    "topic": "ai"
   },
@@ -467,7 +421,6 @@
    "sent": "2026-10-23T19:28:38Z",
    "note": "Adam Del Duca on TikTok",
    "creator": "adamdelduca",
-   "caption": "",
    "summary": "Adam Del Duca, likely on faceless YouTube channels like his other posts. No caption, so I can't tell for sure.",
    "topic": "other"
   },
@@ -477,7 +430,6 @@
    "sent": "2026-10-23T19:24:39Z",
    "note": "Adam Del Duca on TikTok",
    "creator": "adamdelduca",
-   "caption": "I'm begging you Start a faceless YouTube channel, don't tell anyone you know, upload twice a week for a year, make $10k a month If you want to be financially free, follow this exact blueprint Step 1 is finding a market gap High demand, low supply I'd ask Claude for niches that can pay $5,000 a month, then use TubeLab to see which ones are still under-supplied Step 2 is stealing proven topics, then standing out Pull the outlier videos from the biggest channels in your niche, those topics are already proven Then make yours look different in length, structure or style so viewers can tell you apar",
    "summary": "A blueprint for a faceless YouTube channel: use Claude to find niches that pay, TubeLab to check supply, then upload twice a week for a year.",
    "topic": "other"
   },
@@ -487,7 +439,6 @@
    "sent": "2026-10-23T18:26:24Z",
    "note": "Claude startup program $1000",
    "creator": "ai.with.andrew",
-   "caption": "Anthropic just launched the Claude Startups Program offering $1000 in API credits and free subscriptions for startups. This trending solution speeds up AI integration with quick approval and team access—perfect for tech founders and innovators. #AI #AITools #Startups #TechInnovation #Claude",
    "summary": "Anthropic's Claude Startups Program, said to offer $1,000 in API credits and free subscriptions for startups. Check Anthropic's own page for the current terms.",
    "topic": "ai"
   },
@@ -497,7 +448,6 @@
    "sent": "2026-10-23T00:59:57Z",
    "note": "Its AI Guide on TikTok",
    "creator": "itsaiguide",
-   "caption": "",
    "summary": "A post from Its AI Guide with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -507,7 +457,6 @@
    "sent": "2026-10-22T21:46:49Z",
    "note": "nicksadler.io on TikTok",
    "creator": "nicksadler.io",
-   "caption": "A Vercel engineer built a Claude skill that finds every other skill you need. It searches a library of around 700,000 skills, picks the ones that fit your task and installs them for you. Over 3 million installs already. Comment \"skills\" and I'll send you the link. #claude #claudeai #aitools #aiskills #productivity Keywords: Claude skills, Claude AI, AI tools, Vercel, skill finder, AI automation, content creation, AI agents, productivity tools, AI workflow, Claude Code, AI for business",
    "summary": "A Claude skill from a Vercel engineer that searches about 700,000 skills, picks the ones that fit your task and installs them.",
    "topic": "ai"
   },
@@ -517,7 +466,6 @@
    "sent": "2026-10-22T01:31:54Z",
    "note": "RoboNuggets🥚 on TikTok",
    "creator": "robonuggets",
-   "caption": "Mods are a new Claude Code feature by Anthropic: small add-ons that change how it looks and works. These 3 show you what Claude is doing. Savvy Progress puts a progress bar above your prompt and a live panel of every helper agent with roughly what it costs. File Tree adds a file panel beside your chat, where a file shimmers while Claude touches it. Replay Theater steps you through every edit Claude just made. All 3 are in my free 9 Claude Mods guide in the RoboNuggets network at  (search n81). Questions we answered: What are Claude Code mods? How do I see what Claude",
    "summary": "Three Claude Code mods: a progress bar with a live panel of helper agents and their cost, a file tree that shows which file Claude is touching, and a replay of every edit.",
    "topic": "ai"
   },
@@ -527,7 +475,6 @@
    "sent": "2026-10-22T01:30:07Z",
    "note": "Ben Gusberg on TikTok",
    "creator": "bengusberg",
-   "caption": "Easy and actionable lessons #ai #aitips #claude #founder #startup",
    "summary": "Ben Gusberg with what he calls easy, actionable AI lessons. The caption doesn't name the topic.",
    "topic": "ai"
   },
@@ -537,7 +484,6 @@
    "sent": "2026-10-22T01:18:12Z",
    "note": "Ben Gusberg on TikTok",
    "creator": "bengusberg",
-   "caption": "What problem will you give it to solve? #ai #aitips #founder #startup #chatgpt",
    "summary": "Ben Gusberg on an AI tool you hand a problem to solve. The caption doesn't name the tool.",
    "topic": "ai"
   },
@@ -547,7 +493,6 @@
    "sent": "2026-10-11T18:08:29Z",
    "note": "your.aimentor on TikTok",
    "creator": "your.aimentor",
-   "caption": "",
    "summary": "A post from your.aimentor with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -557,7 +502,6 @@
    "sent": "2026-10-11T16:19:00Z",
    "note": "Travis Wright on TikTok",
    "creator": "sirlordtravis",
-   "caption": "GitHub Gold 14: One engineer’s folder of markdown 🔵🔴🟠 Matt Pocock’s Skills repo is 265k stars of plain markdown. No framework, no runtime, no lock in. Grill me makes the agent interrogate your plan. Test driven development. Spec to tickets. Handoff to the next session. One command installs them into Claude Code or Codex in about thirty seconds. Comment GOLD and I’ll send you the list. #GitHub #ClaudeCode #AIcoding #DevTools #FourthWeb",
    "summary": "Matt Pocock's Skills repo: plain markdown skills like \"grill me,\" test-driven development, spec to tickets and session handoff, installable into Claude Code or Codex.",
    "topic": "ai"
   },
@@ -567,7 +511,6 @@
    "sent": "2026-10-10T21:33:46Z",
    "note": "Sabrina Ramonov 🍄 on TikTok",
    "creator": "sabrina_ramonov",
-   "caption": "Hit follow and share your most UNHINGED tip! Stop getting vague ChatGPT answers. If you already use ChatGPT but keep getting generic answers, these 10 prompt codes can help you ask for the kind of answer you actually need: LINDYMODE, 80/20, TRUTHMODE, ELI10, REDTEAM, HORMOZI, YCOMBINATOR, GARYVEE, SOCRATES, FUTUREYOU. Try ELI10 for a simple answer. Try 80/20 when you only want the most useful parts. Try SOCRATES when you want ChatGPT to teach you by asking questions. Put 1 code before your question and see how the answer changes. #chatgptprompts #chatgpt #ai #aitools #productivity",
    "summary": "Ten ChatGPT \"prompt codes\" like ELI10, 80/20, TRUTHMODE and REDTEAM to get more specific answers.",
    "topic": "ai"
   },
@@ -577,7 +520,6 @@
    "sent": "2026-10-10T11:57:48Z",
    "note": "Future Shift 🤖 on TikTok",
    "creator": "futureshiftt",
-   "caption": "This website is used to train yourself repair your car Follow for more tips #carrepairtools #usefulwebsite #techtips #aitools #tech",
    "summary": "A website for learning to repair your own car.",
    "topic": "other"
   },
@@ -587,7 +529,6 @@
    "sent": "2026-10-10T01:37:49Z",
    "note": "glenshustle on TikTok",
    "creator": "glenshustle",
-   "caption": "👇😎 This is really the question I’ve been thinking about lately. I’m over 50. I don’t want another job. And I definitely don’t want to build something that requires me to work 10 hours a day forever. So I’d give Claude this: “Act as my online business strategist. I’m over 50 and want to build something NOW that could potentially still generate income for me in my 60s. I don’t want another job where I simply trade hours for money. Interview me ONE question at a time about my work experience, skills, interests, available time, budget and income goals. Then recommend 3 online business models that",
    "summary": "A Claude prompt for someone over 50 who wants to build an online business now that can still pay into their 60s without a 10-hour workday.",
    "topic": "ai"
   },
@@ -597,7 +538,6 @@
    "sent": "2026-10-10T01:28:37Z",
    "note": "nateherkai on TikTok",
    "creator": "nateherkai",
-   "caption": "Go to my Instagram, DM me ‘FRONTEND’ and I’ll send it over. Link’s in bio.",
    "summary": "Nate Herk on a frontend resource offered by Instagram DM. The caption doesn't say what it is.",
    "topic": "ai"
   },
@@ -607,7 +547,6 @@
    "sent": "2026-10-10T00:01:34Z",
    "note": "jackroberts____ on TikTok",
    "creator": "jackroberts____",
-   "caption": "GSAP:  Lenis:  React Bits:  Claude can build a website. It just doesn't know how it should move. That's the gap between slop and award-winning. The motion. GSAP handles the scroll effects. Lenis makes the scroll feel smooth. React Bits adds the moving pieces. Text, backgrounds and buttons. Paste all three links into Claude Code. It wires them in for you. Like giving a band a drummer. Suddenly everything has rhythm. Same layout, same copy. It just feels expensive now. #claudecode",
    "summary": "Three open-source libraries (GSAP, Lenis and React Bits) to give Claude-built websites smooth scroll and motion so they look less generic.",
    "topic": "ai"
   },
@@ -617,7 +556,6 @@
    "sent": "2026-10-09T12:11:52Z",
    "note": "Ben Gusberg on TikTok",
    "creator": "bengusberg",
-   "caption": "Protect yourself by using this #ai #aitips #claude #founder #startup",
    "summary": "Ben Gusberg on an AI tool to protect yourself. The caption doesn't say from what.",
    "topic": "ai"
   },
@@ -627,7 +565,6 @@
    "sent": "2026-10-09T11:58:54Z",
    "note": "Evelyn Xu on TikTok",
    "creator": "evelynxu87",
-   "caption": "10 ChatGPT Secret Codes You Need to Try #chatgpt #chatgpttips #aitips #creatorsearchinsights #createsightinsight",
    "summary": "Ten ChatGPT \"secret codes\" for better answers.",
    "topic": "ai"
   },
@@ -637,7 +574,6 @@
    "sent": "2026-10-07T20:44:26Z",
    "note": "Ecc",
    "creator": "kayvon.ai",
-   "caption": "Follow me then comment \"ECC\" and I'll DM you the free GitHub repo with 63 AI agents 🤖⚙️ Video inspired by @[creator handle] One developer just handed the entire planet the power to replace every engineer alive: 63 AI agents, 249 skills, and an AI that red teams its own code before hackers can. One guy built it alone in ten months and it just crossed 240,000 stars. Here's how it works 👇 1️⃣ Open Claude Code, Cursor, or Codex 2️⃣ Type /plugin marketplace add, then the ECC repo 3️⃣ Type /plugin install and you're done in two minutes 4️⃣ Say \"Plan this feature\" and one agent designs the whole arch",
    "summary": "A free GitHub repo with 63 AI agents and 249 skills, including one that red-teams its own code, said to have about 240,000 stars. You noted it as \"Ecc.\"",
    "topic": "ai"
   },
@@ -647,7 +583,6 @@
    "sent": "2026-10-05T22:07:41Z",
    "note": "Ben Gusberg on TikTok",
    "creator": "bengusberg",
-   "caption": "You have to try this! #linkedin #claude #ai #aitips #founder",
    "summary": "Ben Gusberg on using Claude for LinkedIn.",
    "topic": "ai"
   },
@@ -657,7 +592,6 @@
    "sent": "2026-10-04T22:14:20Z",
    "note": "Claude skills",
    "creator": "thelazydeveloper",
-   "caption": "Links to the 4 skills: 1. Superpowers -  2. UI/UX Pro Max -  3.  (specifically: Product marketing, seo-audit, social, launch, copywriting 4. No AI slop -",
    "summary": "Four Claude skills: Superpowers, UI/UX Pro Max, a marketing skills set (SEO audit, launch, copywriting) and No AI Slop.",
    "topic": "ai"
   },
@@ -667,7 +601,6 @@
    "sent": "2026-10-04T16:36:03Z",
    "note": "Claude mcp",
    "creator": "ericsocal",
-   "caption": "5 Must Have MCPs for Claude",
    "summary": "Five must-have MCP servers for Claude.",
    "topic": "ai"
   },
@@ -677,7 +610,6 @@
    "sent": "2026-10-04T12:53:55Z",
    "note": "Claude code front end design",
    "creator": "ai.honeycove",
-   "caption": "Claude Code just revealed 5 essential plugins for smarter front-end design. These tools boost UI quality, audit code, generate full design systems, convert images to code, and catch errors before deployment. #claudecode #frontendplugins #webdesigntools #aidedesign #codingworkflow",
    "summary": "Five Claude Code plugins for front-end design that audit UI code, generate design systems, turn images into code and catch errors before deploying.",
    "topic": "ai"
   },
@@ -687,7 +619,6 @@
    "sent": "2026-10-03T01:22:02Z",
    "note": "Install these",
    "creator": "laurenfox.ai",
-   "caption": "4 claude skills you must install for vibecoding. #ai #aitools #claudecode #vibecoding #aicoding",
    "summary": "Four Claude skills the creator says to install for vibe coding.",
    "topic": "ai"
   },
@@ -697,7 +628,6 @@
    "sent": "2026-10-02T01:08:18Z",
    "note": "Claude design skills",
    "creator": "codenameposhan",
-   "caption": "This is the best frontend design setup for Claude Code I've found. It costs more tokens, but if you're building a real product instead of a quick prototype, the improvement in design quality is absolutely worth it. Here's the complete workflow I use for creating premium-looking interfaces. #ClaudeCode #Frontend #WebDesign #AI #devswarm",
    "summary": "A front-end design setup for Claude Code that costs more tokens but gives much better-looking interfaces, with the full workflow walked through.",
    "topic": "ai"
   },
@@ -707,7 +637,6 @@
    "sent": "2026-10-02T00:40:53Z",
    "note": "Find skills",
    "creator": "bengusberg",
-   "caption": "You have to check this out! #claude #ai #aitips #founder #startup",
    "summary": "Ben Gusberg on a way to find Claude skills, which you noted as \"Find skills.\" The caption doesn't name it.",
    "topic": "ai"
   },
@@ -717,7 +646,6 @@
    "sent": "2026-10-01T01:11:20Z",
    "note": "AI Slacker on TikTok",
    "creator": "ai_slacker",
-   "caption": "",
    "summary": "A post from AI Slacker with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -727,7 +655,6 @@
    "sent": "2026-09-27T19:29:48Z",
    "note": "Braydon Carter on TikTok",
    "creator": "carter.braydon",
-   "caption": "Here are my 7 favorite AI educators to follow to get practical and helpful Ai skills! #ai #learnai #aitips #aieducation",
    "summary": "Seven AI educators worth following for practical AI skills.",
    "topic": "ai"
   },
@@ -737,7 +664,6 @@
    "sent": "2026-09-27T17:45:09Z",
    "note": "AI that airs stuff to make money or dies",
    "creator": "bengusberg",
-   "caption": "Help it stay alive! #ai #aitips #startup #claude #startup",
    "summary": "Ben Gusberg on an AI agent that has to earn money to stay alive, as your note describes.",
    "topic": "ai"
   },
@@ -747,7 +673,6 @@
    "sent": "2026-09-27T16:21:52Z",
    "note": "Voice box.  Free version of whisper flow",
    "creator": "nathanhodgson.ai",
-   "caption": "Voicebox clones your voice locally and pastes dictation into any app. #ai #aitools #voicecloning #voiceai #dictation",
    "summary": "Voicebox, a free local alternative to Wispr Flow that clones your voice and types your dictation into any app.",
    "topic": "ai"
   },
@@ -757,7 +682,6 @@
    "sent": "2026-09-27T02:45:42Z",
    "note": "Claude cert",
    "creator": "bengusberg",
-   "caption": "Boost your resume with this! #jobsearch #claude #ai #founder #startup",
    "summary": "Ben Gusberg on a Claude certification to add to your resume.",
    "topic": "ai"
   },
@@ -767,7 +691,6 @@
    "sent": "2026-09-27T01:41:20Z",
    "note": "Minto pyramid principle",
    "creator": "bengusberg",
-   "caption": "Now my writing will sound polished all the time #mckinsey #claude #ai #aitips #founder",
    "summary": "Using Claude with McKinsey's Minto pyramid principle (answer first, then supporting points) to make your writing sound polished.",
    "topic": "ai"
   },
@@ -777,7 +700,6 @@
    "sent": "2026-09-27T00:45:29Z",
    "note": "Free AI api keys",
    "creator": "bengusberg",
-   "caption": "How great is this? #nvidia #claude #ai #aitips #founder",
    "summary": "Ben Gusberg on getting free AI API keys, apparently through NVIDIA based on the hashtags.",
    "topic": "ai"
   },
@@ -787,7 +709,6 @@
    "sent": "2026-09-27T00:43:43Z",
    "note": "Claude apply to jobs",
    "creator": "milesreevesai",
-   "caption": "Claude just helped one guy apply to 100 jobs and landed 10 interviews in days. It automates CV tailoring, job matching, and applying—making job hunting smarter and faster with AI. #AI #JobSearch #ResumeTips #Productivity #Hiring",
    "summary": "Using Claude to tailor your resume, match jobs and apply, with a claim of 100 applications and 10 interviews in days.",
    "topic": "ai"
   },
@@ -797,7 +718,6 @@
    "sent": "2026-09-23T21:07:19Z",
    "note": "Jarvis",
    "creator": "kevinfremon",
-   "caption": "The most common question I get… where do I start building my own AI Jarvis? Here's the answer. One move. Day one. Are you building your own Jarvis? Drop it in the comments. #AIAgents #ClaudeCode #Claude #JarvisAIAgent",
    "summary": "Where to start building your own \"Jarvis\" AI agent with Claude Code: the one first move the creator recommends.",
    "topic": "ai"
   },
@@ -807,7 +727,6 @@
    "sent": "2026-09-21T23:40:08Z",
    "note": "GitHub diagrammed",
    "creator": "theaisurfer",
-   "caption": "Most people have no idea you can turn any GitHub repo into a diagram just by editing the URL. 🔥 Full list of GitHub URL tricks in my link in bio One word swap and you get a visual map of the whole project: - Open any GitHub repo you want to understand - Go up to the URL bar - Replace github with gitdiagram - Keep everything else in the link exactly the same - Hit enter and it builds a visual explainer of the repo There are a bunch of URL tricks like this that make GitHub way easier to read. 🔥 Get all the GitHub URL tricks in my link in bio #github #gitdiagram #opensource #developertools #codingtips",
    "summary": "Swap \"github\" for \"gitdiagram\" in any repo's address to get a visual diagram of the whole project.",
    "topic": "ai"
   },
@@ -817,7 +736,6 @@
    "sent": "2026-09-18T13:25:51Z",
    "note": "Everything Claude",
    "creator": "jackroberts____",
-   "caption": "Ten months of private Claude Code tuning just went public, free on GitHub. It's called Everything Claude Code: 286 skills and 68 subagents. Basically a dev team in a folder. One skill scans your code for security holes. One keeps your memory clean. One learns from your past sessions. And it isn't locked to Claude Code: it runs on Cursor, Codex, Encode and Gemini too. Like inheriting a toolbox someone spent ten months filling, every tool already sharpened. He won Anthropic's own hackathon with this setup. Everything Claude Code:  #everythingclaudecode #claudecode",
    "summary": "Everything Claude Code, a free GitHub collection of 286 skills and 68 subagents, including a security scanner and memory cleanup, that also works in Cursor, Codex and Gemini.",
    "topic": "ai"
   },
@@ -827,7 +745,6 @@
    "sent": "2026-09-12T00:59:53Z",
    "note": "Car parts",
    "creator": "pina.garage",
-   "caption": "",
    "summary": "A post from Pina Garage that you noted as \"Car parts.\" No caption, so I can't tell more.",
    "topic": "other"
   },
@@ -837,7 +754,6 @@
    "sent": "2026-09-05T21:34:08Z",
    "note": "AI memory",
    "creator": "jaredrhod",
-   "caption": "How I used Claude Code and Obsidian to build my AI Memory Vault system. It creates an AI agent that never forgets, has perfect memory, and self-manages and self-maintains everything. #claude #claudecode #smallbusiness",
    "summary": "Building an \"AI memory vault\" with Claude Code and Obsidian so an agent keeps and maintains long-term notes on its own.",
    "topic": "ai"
   },
@@ -847,7 +763,6 @@
    "sent": "2026-08-29T16:37:45Z",
    "note": "Grubby Garry on TikTok",
    "creator": "countrycleanss",
-   "caption": "🇺🇸 #Cleaninghacks #cleaningtips #syntheticperformer",
    "summary": "A cleaning tips post from Country Clean. The caption is only hashtags.",
    "topic": "other"
   },
@@ -857,7 +772,6 @@
    "sent": "2026-08-26T12:56:43Z",
    "note": "Ben Gusberg on TikTok",
    "creator": "bengusberg",
-   "caption": "Don’t worry about teaching yourself. Just teach Claude #claude #ai #aitips #founder #startup",
    "summary": "Ben Gusberg on letting Claude learn a skill for you instead of teaching yourself.",
    "topic": "ai"
   },
@@ -867,7 +781,6 @@
    "sent": "2026-08-26T12:50:40Z",
    "note": "glub on TikTok",
    "creator": "misstryingtomoveon",
-   "caption": "come get philosophically tangled with me about free will and what it means to create yourself under weights of causation",
    "summary": "A philosophy video on free will and creating yourself.",
    "topic": "other"
   },
@@ -877,7 +790,6 @@
    "sent": "2026-08-22T21:46:04Z",
    "note": "Rise Into Tech on TikTok",
    "creator": "rise.into.tech",
-   "caption": "Master your Ethernet cabling fundamentals! 🔌💻 Knowing T-568A vs. T-568B, straight-through vs. crossover cables, crimping steps, and cable testing can make networking concepts much easier to understand and can help you feel more confident on certification exams. 📚 Save this cheat sheet for your next study session! 💡 Study smart. Practice often. Build your tech skills. #CompTIA #studytechtiktokcontest #Network+ #ITCertification #RiseIntoTech",
    "summary": "An Ethernet cabling cheat sheet: T-568A vs T-568B, straight-through vs crossover, crimping and testing.",
    "topic": "other"
   },
@@ -887,7 +799,6 @@
    "sent": "2026-08-20T18:55:30Z",
    "note": "dotsokt on TikTok",
    "creator": "dotsokt",
-   "caption": "",
    "summary": "From dotsokt. TikTok says this video is no longer available.",
    "topic": "other"
   },
@@ -897,7 +808,6 @@
    "sent": "2026-08-18T10:54:58Z",
    "note": "Second brain",
    "creator": "pro.glitch",
-   "caption": "How to Build second Brain My entire second brain is on a hard drive — not in ChatGPT, not in Claude, not in anybody's app. It's folders and files. I can unplug it, hand it to a completely different AI tomorrow, and it still knows everything about me and my business. The whole build: • raw/ — yours. Every note, meeting transcript, voice memo, screenshot. You dump, you don't organise. • wiki/ — the AI's. It reads raw, works out what matters, writes clean pages, and links them together. That's the part that matters — most \"chat with your documents\" tools just find chunks that look similar and hop",
    "summary": "Building a \"second brain\" as plain folders and files on a hard drive, so any AI can read it and you're not locked into one app.",
    "topic": "ai"
   },
@@ -907,7 +817,6 @@
    "sent": "2026-08-15T20:53:31Z",
    "note": "zoeyos.ai on TikTok",
    "creator": "zoeyos.ai",
-   "caption": "",
    "summary": "From zoeyos.ai. TikTok says this video is no longer available.",
    "topic": "ai"
   },
@@ -917,7 +826,6 @@
    "sent": "2026-08-14T02:35:30Z",
    "note": "CarterPerez-dev on TikTok",
    "creator": "certgames.com",
-   "caption": "3 open source intelligence tools I’m no longer gatekeeping. #osint #OPSEC #cybersecurity #ethicalhacking #bugbounty",
    "summary": "Three open-source intelligence (OSINT) tools for cybersecurity research.",
    "topic": "other"
   },
@@ -927,7 +835,6 @@
    "sent": "2026-08-11T20:39:48Z",
    "note": "Michael TV on TikTok",
    "creator": "michael.tv.ai",
-   "caption": "The Sin-namon Rolls (1981) #movies #movietok #horrortok #cinnamonroll #fyp",
    "summary": "A spoof AI-made horror movie trailer, \"The Sin-namon Rolls (1981).\"",
    "topic": "other"
   },
@@ -937,7 +844,6 @@
    "sent": "2026-08-11T20:42:32Z",
    "note": "Michael TV on TikTok",
    "creator": "michael.tv.ai",
-   "caption": "Shark Cat (1974) #movies #movietok #horrortok #shark #cat",
    "summary": "A spoof AI-made horror movie trailer, \"Shark Cat (1974).\"",
    "topic": "other"
   },
@@ -947,7 +853,6 @@
    "sent": "2026-08-11T21:24:35Z",
    "note": "Michael TV on TikTok",
    "creator": "michael.tv.videos",
-   "caption": "Shark Kittens (1985) #movies #movietok #horrortok #aisharkweek #sorabites",
    "summary": "A spoof AI-made horror movie trailer, \"Shark Kittens (1985).\"",
    "topic": "other"
   },
@@ -957,7 +862,6 @@
    "sent": "2026-08-10T00:16:23Z",
    "note": "Claude prompts",
    "creator": "",
-   "caption": "Anthropic dropped a free official Claude Code prompt library using the exact rules their own engineers use. #ai #artificialintelligence #aitools #claudeai #claudecode",
    "summary": "A free official Claude Code prompt library from Anthropic. Check Anthropic's own docs to confirm what it is.",
    "topic": "ai"
   },
@@ -967,7 +871,6 @@
    "sent": "2026-08-09T01:06:43Z",
    "note": "Lego mini tomcat",
    "creator": "",
-   "caption": "",
    "summary": "No caption. You noted it as a mini LEGO Tomcat build.",
    "topic": "other"
   },
@@ -977,7 +880,6 @@
    "sent": "2026-08-08T14:14:25Z",
    "note": "Litotes and irony",
    "creator": "rich_kuo1",
-   "caption": "It took me a while to figure out why this was happening, but apparently the data that a lot ofLLMs are trained on suggest that litotes are an effective way to avoid absolute statements because people favor balanced, not so black and white, non committed communication #communicationskills #aicommunication #ai",
    "summary": "Why AI models lean on litotes (\"not bad,\" \"not uncommon\"): their training data favors hedged, balanced phrasing.",
    "topic": "ai"
   },
@@ -987,7 +889,6 @@
    "sent": "2026-08-08T14:12:45Z",
    "note": "Git explained",
    "creator": "",
-   "caption": "I wish someone showed me this earlier in my career. #engineering #softwareengineer",
    "summary": "An explainer on how Git works that the creator wishes they'd seen earlier.",
    "topic": "ai"
   },
@@ -997,7 +898,6 @@
    "sent": "2026-08-08T00:26:13Z",
    "note": "Hop earth",
    "creator": "ai.samaritan",
-   "caption": "You can now drive to your own house... in a video game. Every road on Earth is in it, and it runs free in your browser. The world is generated in real time as you drive. Here's what makes it cool: * Built by a single indie developer. * Uses OpenStreetMap and real elevation data. * Drop anywhere on Earth and start driving. * Multiplayer, so you can race friends on real roads. It's still a work in progress, so don't expect photorealistic streets. But Google spent 20 years mapping the world. One developer turned that map into a game. Follow @practicaly.ai for more practical AI tips. #learnai #ai",
    "summary": "A free browser driving game built on OpenStreetMap and real elevation data, so you can drive any real road on Earth, including to your own house, with friends.",
    "topic": "other"
   },
@@ -1007,7 +907,6 @@
    "sent": "2026-08-05T22:08:50Z",
    "note": "Customize windows",
    "creator": "unknown.tech",
-   "caption": "I Built macOS 27 on Windows 11 With Only 2 FREE Apps! #techtok #windows #apple #mac #pc",
    "summary": "Making Windows 11 look like macOS with two free apps.",
    "topic": "other"
   },
@@ -1017,7 +916,6 @@
    "sent": "2026-08-03T02:40:09Z",
    "note": "Adverbs",
    "creator": "tarphengsavath",
-   "caption": "#adverbs #grammar #english #ພາສາອັງກິດ #ຮຽນອັງກິດນໍາກັນ",
    "summary": "An English grammar lesson on adverbs.",
    "topic": "other"
   },
@@ -1027,7 +925,6 @@
    "sent": "2026-08-02T03:57:05Z",
    "note": "Kmart subs",
    "creator": "",
-   "caption": "",
    "summary": "No caption. You noted it as \"Kmart subs.\"",
    "topic": "other"
   },
@@ -1037,7 +934,6 @@
    "sent": "2026-07-31T11:17:54Z",
    "note": "Xtine Cardenas on TikTok",
    "creator": "xtinefit",
-   "caption": "Try this mobility routine to fix your lower back pain",
    "summary": "A mobility routine for lower back pain.",
    "topic": "other"
   },
@@ -1047,7 +943,6 @@
    "sent": "2026-07-29T02:56:05Z",
    "note": "Melodic techno",
    "creator": "samsoundforge",
-   "caption": "A love language written in melodic techno #melodictechnolovers #bach #technomusic #melodictechnolovers #technomusicforlife",
    "summary": "Melodic techno set to Bach.",
    "topic": "other"
   },
@@ -1057,7 +952,6 @@
    "sent": "2026-07-21T03:05:26Z",
    "note": "pastward on TikTok",
    "creator": "",
-   "caption": "Subscribe for more ancient inventions. Discover poka-yoke, Toyota’s genius fool-proofing system that makes human errors impossible by redesigning processes with smart sensors and fail-safes. See how this smart gadget trend revolutionized manufacturing and error prevention! #pokayoke #toyotainnovation #manufacturingtech #errorproof #leanmanufacturing",
    "summary": "Toyota's poka-yoke \"mistake-proofing\" idea: redesign a process so a human error can't happen.",
    "topic": "other"
   },
@@ -1067,7 +961,6 @@
    "sent": "2026-07-19T03:45:14Z",
    "note": "LOST MEMES ARCHIVE 📁 on TikTok",
    "creator": "lostmemesarchive_",
-   "caption": "[Bringing lost memes back to life] #memes #nostalgia #fyp #explore",
    "summary": "A lost-memes nostalgia post.",
    "topic": "other"
   },
@@ -1077,7 +970,6 @@
    "sent": "2026-07-19T01:14:44Z",
    "note": "Iced coffee recipe",
    "creator": "",
-   "caption": "Would this last you a week, 3 days, or one afternoon? #icedcoffee #coffeeathome #viralcoffee #budgetfriendly #easyrecipe",
    "summary": "A budget iced coffee recipe made at home in bulk.",
    "topic": "other"
   },
@@ -1087,7 +979,6 @@
    "sent": "2026-07-09T02:41:42Z",
    "note": "masteringmachines on TikTok",
    "creator": "masteringmachines",
-   "caption": "I fear this is indeed a GOAT software engineering book #softwareengineer #ai #software #fyp #greenscreen",
    "summary": "A software engineering book the creator calls one of the best. The caption doesn't name it.",
    "topic": "ai"
   },
@@ -1097,7 +988,6 @@
    "sent": "2026-07-09T03:13:14Z",
    "note": "4 Mavericks on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "From 4 Mavericks. TikTok says this video is no longer available.",
    "topic": "other"
   },
@@ -1107,7 +997,6 @@
    "sent": "2026-07-04T16:27:30Z",
    "note": "Dr. Grant Elliott on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "A post from Dr. Grant Elliott with no caption, so I can't tell what it covers.",
    "topic": "other"
   },
@@ -1117,7 +1006,6 @@
    "sent": "2026-07-04T16:23:30Z",
    "note": "The Sculptor on TikTok",
    "creator": "",
-   "caption": "How To Fix Anterior Pelvic Tilt⚒️ Poor pelvic position is often the result of weak glutes and core, combined with tight hip flexors, not just something you can “stand up straight” and fix. This routine includes a beginner and an advanced exercise to improve pelvic control, strengthen the muscles that support your spine, and restore more balanced movement. #anteriorpelvictilt #postureworkout #corestrength #glutes #keepsculpting",
    "summary": "A beginner and an advanced exercise to fix anterior pelvic tilt by strengthening glutes and core and loosening hip flexors.",
    "topic": "other"
   },
@@ -1127,7 +1015,6 @@
    "sent": "2026-07-04T15:38:55Z",
    "note": "agentic.james on TikTok",
    "creator": "agentic.james",
-   "caption": "Your coding agent should be doing end to end human simulating app testing #claudecode #aiagents #claude #codex #vibecoding",
    "summary": "Having your coding agent test your app end to end the way a person would use it.",
    "topic": "ai"
   },
@@ -1137,7 +1024,6 @@
    "sent": "2026-07-02T12:31:33Z",
    "note": "essynotes✨ on TikTok",
    "creator": "essynotes",
-   "caption": "Practice your desired font in just 10 minutes! #handwriting #notes #notetaking #fypシ #foryou",
    "summary": "A 10-minute handwriting practice method for the lettering style you want.",
    "topic": "other"
   },
@@ -1147,7 +1033,6 @@
    "sent": "2026-06-24T11:37:55Z",
    "note": "yogawithkatharine on TikTok",
    "creator": "",
-   "caption": "STOP stretching your hips - do THIS instead",
    "summary": "A yoga teacher's alternative to hip stretching.",
    "topic": "other"
   },
@@ -1157,7 +1042,6 @@
    "sent": "2026-06-24T11:33:04Z",
    "note": "yogawithkatharine on TikTok",
    "creator": "yogawithkatharine",
-   "caption": "We cut down mobility to just 10 exercises.",
    "summary": "A mobility routine cut down to 10 exercises.",
    "topic": "other"
   },
@@ -1167,7 +1051,6 @@
    "sent": "2026-06-23T00:36:19Z",
    "note": "House planner website",
    "creator": "",
-   "caption": "Powerful websites you should know (part 750) design your home in 3D #homedesign #housedesign #interiodesign",
    "summary": "A website for designing your home in 3D.",
    "topic": "other"
   },
@@ -1177,7 +1060,6 @@
    "sent": "2026-06-22T23:40:20Z",
    "note": "iPhone reminder list",
    "creator": "",
-   "caption": "Crazy iPhone Trick you can do with Reminders app 😱 @apple #iphonetips #iphonetricks #iphonehack #iphonetipsandtricks #apple",
    "summary": "An iPhone trick using the Reminders app.",
    "topic": "other"
   },
@@ -1187,7 +1069,6 @@
    "sent": "2026-06-22T23:01:14Z",
    "note": "Song learning site",
    "creator": "setups_ai",
-   "caption": "Powerful websites you should know (part 745) shows you how to play your song on guitar or piano #song #music #piano",
    "summary": "A website that shows you how to play a song on guitar or piano.",
    "topic": "other"
   },
@@ -1197,7 +1078,6 @@
    "sent": "2026-06-22T22:33:51Z",
    "note": "Car mods site",
    "creator": "setups_ai",
-   "caption": "Powerful websites you should know (part 741) customize almost any car in 3D #car #3d #mechanic",
    "summary": "A website for customizing almost any car in 3D.",
    "topic": "other"
   },
@@ -1207,7 +1087,6 @@
    "sent": "2026-06-22T22:25:03Z",
    "note": "Car repair info",
    "creator": "lucaswebq",
-   "caption": "Powerful Websites You Should Know (Part 666) Find useful guides, owners manuals, and fuse diagrams for almost any car. #car #repair #mechanic #lucaswebq",
    "summary": "A website with repair guides, owner's manuals and fuse diagrams for most cars.",
    "topic": "other"
   },
@@ -1217,7 +1096,6 @@
    "sent": "2026-06-22T22:20:50Z",
    "note": "Car repair simulator site",
    "creator": "setupspawn",
-   "caption": "Practice fixing your own car #automotive #cartok #mechanic",
    "summary": "A site for practicing car repairs in a simulator.",
    "topic": "other"
   },
@@ -1227,7 +1105,6 @@
    "sent": "2026-06-18T22:41:29Z",
    "note": "Steve on TikTok",
    "creator": "steve8708",
-   "caption": "Introducing /visual-plan - a skill to generate rich, visual plans for claude code and codex",
    "summary": "/visual-plan, a skill that makes rich visual plans for Claude Code and Codex.",
    "topic": "ai"
   },
@@ -1237,7 +1114,6 @@
    "sent": "2026-06-17T13:51:20Z",
    "note": "Etsy store so",
    "creator": "androoagi",
-   "caption": "Best Way to Use AI Agents #ai #claude",
    "summary": "A video on the best way to use AI agents, which you noted as \"Etsy store.\"",
    "topic": "ai"
   },
@@ -1247,7 +1123,6 @@
    "sent": "2026-06-17T01:32:05Z",
    "note": "Code base to kknowledge graph",
    "creator": "whitewhoadie",
-   "caption": "🚨 CODEBASE → INTERACTIVE KNOWLEDGE GRAPH JUST DROPPED This Claude Code plugin turns any project into a fully explorable visual map. Ships with: • Analyzes every file, function, class & dependency • Builds real-time interactive knowledge graph • Visual dashboard to navigate your entire codebase • 100% open source Understand Anything instantly. 👉  Who’s mapping their codebase today? Drop a 🔥",
    "summary": "An open-source Claude Code plugin that turns any codebase into an interactive knowledge graph of files, functions, classes and dependencies.",
    "topic": "ai"
   },
@@ -1257,7 +1132,6 @@
    "sent": "2026-06-17T01:19:53Z",
    "note": "Concrete repair",
    "creator": "sherpa.offroad",
-   "caption": "How to fix concrete #jeeplife #offroad #jeepwrangler #4x4 #cars",
    "summary": "How to fix cracked concrete.",
    "topic": "other"
   },
@@ -1267,7 +1141,6 @@
    "sent": "2026-06-17T01:14:48Z",
    "note": "Its AI Guide on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "A post from Its AI Guide with no caption, so I can't tell what it covers.",
    "topic": "ai"
   },
@@ -1277,7 +1150,6 @@
    "sent": "2026-06-14T01:22:27Z",
    "note": "Humblemechanic on TikTok",
    "creator": "",
-   "caption": "Hey, remember when we talked about the 12 essential #tools that you HAVE to have in your toolbox?? Well, the borescopes we reviewed are no exception. It’s tricky though, because you have to find one that’s both the exact size you need with the video quality that you want. I personally like the DXtoZ one, but the mobile phone options are a good pick, too #toolbox #milwaukee #borescope #carfixtiktokcontest",
    "summary": "Humble Mechanic on picking a borescope inspection camera: the right size and video quality, with a couple of picks.",
    "topic": "other"
   },
@@ -1286,20 +1158,18 @@
    "url": "https://www.tiktok.com/t/ZTBDeK8Ev/",
    "sent": "2026-06-04T00:48:33Z",
    "note": "Long: how use Claude",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "sarutalksai",
+   "summary": "A long breakdown of how most people use Claude: context lost to CLAUDE.md before you type, automation workflows few people know, and daily task pipelines Anthropic engineers automated first.",
+   "topic": "ai"
   },
   {
    "id": "ZTBhQRnd6",
    "url": "https://www.tiktok.com/t/ZTBhQRnd6/",
    "sent": "2026-05-31T03:22:14Z",
    "note": "LinkedIn optimization",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "dailyprompter",
+   "summary": "A post from Daily Prompter that you noted as \"LinkedIn optimization.\" No caption, so I can't tell more.",
+   "topic": "ai"
   },
   {
    "id": "ZTBhAEgyK",
@@ -1307,9 +1177,8 @@
    "sent": "2026-05-30T22:38:59Z",
    "note": "OpenJarvis",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "OpenJarvis, described as a Stanford project: a personal AI agent that runs on your own device, learns over time and keeps your data off the cloud.",
+   "topic": "ai"
   },
   {
    "id": "ZTBrAUePV",
@@ -1317,9 +1186,8 @@
    "sent": "2026-05-30T01:49:11Z",
    "note": "Fitim.AI on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Five AI tools Fitim.AI says multiply your output. The caption doesn't name them.",
+   "topic": "ai"
   },
   {
    "id": "ZTB26WFnr",
@@ -1327,8 +1195,7 @@
    "sent": "2026-05-26T18:25:25Z",
    "note": "PMI requirement?",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A money video you noted as \"PMI requirement?\", likely on private mortgage insurance. The caption is only a hashtag.",
    "topic": "other"
   },
   {
@@ -1337,8 +1204,7 @@
    "sent": "2026-05-25T22:42:21Z",
    "note": "Lidarr",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Lidarr, the music manager in the \"arr\" home server stack.",
    "topic": "other"
   },
   {
@@ -1346,9 +1212,8 @@
    "url": "https://www.tiktok.com/t/ZTBN5XJTp/",
    "sent": "2026-05-23T21:11:41Z",
    "note": "Snowflake IDs",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "greghogg5",
+   "summary": "How Twitter's Snowflake IDs work: unique 64-bit IDs built from a timestamp, machine number and sequence, with no central coordinator.",
    "topic": "other"
   },
   {
@@ -1357,8 +1222,7 @@
    "sent": "2026-05-23T21:20:56Z",
    "note": "K8s",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "An explainer on what Kubernetes is.",
    "topic": "other"
   },
   {
@@ -1367,9 +1231,8 @@
    "sent": "2026-05-19T01:39:06Z",
    "note": "Claude images",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Connecting Claude to Higgsfield to make images.",
+   "topic": "ai"
   },
   {
    "id": "ZTB1QB1ev",
@@ -1377,9 +1240,8 @@
    "sent": "2026-05-17T13:30:09Z",
    "note": "Which LLM?",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "whichllm, a command-line tool that checks your GPU, RAM and VRAM, picks the best local LLM for your hardware from live rankings, and starts a chat with it.",
+   "topic": "ai"
   },
   {
    "id": "ZTks79mjy",
@@ -1387,8 +1249,7 @@
    "sent": "2026-05-03T14:12:20Z",
    "note": "Video cards 6",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Part 6 of a series explaining every 2026 graphics card brand (NVIDIA, Gigabyte, ASUS).",
    "topic": "other"
   },
   {
@@ -1396,9 +1257,8 @@
    "url": "https://www.tiktok.com/t/ZTks7QewE/",
    "sent": "2026-05-03T14:11:11Z",
    "note": "Video cards 5",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "explainernexus1",
+   "summary": "Part 5 of the graphics card brand series (Galax, KFA2, Colorful).",
    "topic": "other"
   },
   {
@@ -1407,8 +1267,7 @@
    "sent": "2026-05-03T14:10:35Z",
    "note": "Video cards 4",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Part 4 of the graphics card brand series. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1417,8 +1276,7 @@
    "sent": "2026-05-03T14:09:03Z",
    "note": "Video cards 3",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Part 3 of the graphics card brand series. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1427,8 +1285,7 @@
    "sent": "2026-05-03T14:08:13Z",
    "note": "Video cards 2",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Part 2 of the graphics card brand series. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1437,8 +1294,7 @@
    "sent": "2026-05-03T14:07:37Z",
    "note": "Video cards explained",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Part 1 of the graphics card brand series. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1447,8 +1303,7 @@
    "sent": "2026-05-02T17:14:57Z",
    "note": "Martins Kremeris on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "From Martins Kremeris. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1456,9 +1311,8 @@
    "url": "https://www.tiktok.com/t/ZTkgfD4U3/",
    "sent": "2026-05-01T01:48:08Z",
    "note": "Foxy pho",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "bethanylmorrison",
+   "summary": "Phoxy Pho, a pho restaurant in Toledo.",
    "topic": "other"
   },
   {
@@ -1466,19 +1320,17 @@
    "url": "https://www.tiktok.com/t/ZTkx85mCM/",
    "sent": "2026-04-22T12:03:58Z",
    "note": "Its AI Guide on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "itsaiguide",
+   "summary": "A post from Its AI Guide with no caption, so I can't tell what it covers.",
+   "topic": "ai"
   },
   {
    "id": "ZTkHYc1hD",
    "url": "https://www.tiktok.com/t/ZTkHYc1hD/",
    "sent": "2026-04-20T12:02:31Z",
    "note": "FitnessDong on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "fitnessdong",
+   "summary": "A home ab workout.",
    "topic": "other"
   },
   {
@@ -1487,8 +1339,7 @@
    "sent": "2026-04-19T22:21:14Z",
    "note": "FitnessWorkoutchannel on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A workout video. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1497,8 +1348,7 @@
    "sent": "2026-04-19T12:53:49Z",
    "note": "Jules_horn on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A post from Jules Horn with no caption, so I can't tell what it covers.",
    "topic": "other"
   },
   {
@@ -1507,8 +1357,7 @@
    "sent": "2026-04-19T12:53:20Z",
    "note": "SweatSquadUSA on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A workout video from SweatSquadUSA. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1517,18 +1366,16 @@
    "sent": "2026-04-19T12:30:41Z",
    "note": "Maven on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Maven shares a Claude Code setup to copy.",
+   "topic": "ai"
   },
   {
    "id": "ZTkuSFCPm",
    "url": "https://www.tiktok.com/t/ZTkuSFCPm/",
    "sent": "2026-04-19T02:14:01Z",
    "note": "Jeremiah Jimerson on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "youngeryoudoc",
+   "summary": "A shoulder mobility drill for stiff shoulders, rounded posture and a tight upper back.",
    "topic": "other"
   },
   {
@@ -1537,8 +1384,7 @@
    "sent": "2026-04-19T02:10:42Z",
    "note": "DrRod on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A hip mobility routine from a physical therapist.",
    "topic": "other"
   },
   {
@@ -1546,9 +1392,8 @@
    "url": "https://www.tiktok.com/t/ZTkuBdTbR/",
    "sent": "2026-04-19T01:41:44Z",
    "note": "myokinetix on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "myokinetix",
+   "summary": "A one-leg-raised stretch for tight hamstrings and calves that keeps the pelvis level.",
    "topic": "other"
   },
   {
@@ -1557,8 +1402,7 @@
    "sent": "2026-04-19T01:34:11Z",
    "note": "DrRod on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A physical therapist's move to release tight hips and lower back from sitting all day.",
    "topic": "other"
   },
   {
@@ -1567,18 +1411,16 @@
    "sent": "2026-04-16T14:04:53Z",
    "note": "Brand Nat | AI Automation on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Brand Nat on what to know before you start using Claude Code.",
+   "topic": "ai"
   },
   {
    "id": "ZTkPnuYkS",
    "url": "https://www.tiktok.com/t/ZTkPnuYkS/",
    "sent": "2026-04-15T11:25:35Z",
    "note": "SamDonaldMusic on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "samdonaldmusic",
+   "summary": "A cover mashing up Nirvana and Marilyn Manson's \"Sweet Dreams.\"",
    "topic": "other"
   },
   {
@@ -1586,30 +1428,27 @@
    "url": "https://www.tiktok.com/t/ZTkyXCS8X/",
    "sent": "2026-04-13T01:35:52Z",
    "note": "v on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "martiendejong_dev",
+   "summary": "A post from a developer (@martiendejong_dev) with no caption, so I can't tell what it covers.",
+   "topic": "ai"
   },
   {
    "id": "ZTkUqpt4e",
    "url": "https://www.tiktok.com/t/ZTkUqpt4e/",
    "sent": "2026-04-11T22:28:07Z",
    "note": "NEXTPATH | AI | chatgpt on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "nextpath.ai",
+   "summary": "A post from NextPath AI with no caption, so I can't tell what it covers.",
+   "topic": "ai"
   },
   {
    "id": "ZTkU5U5LD",
    "url": "https://www.tiktok.com/t/ZTkU5U5LD/",
    "sent": "2026-04-11T17:36:59Z",
    "note": "GitHub Awesome on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "github.awesome",
+   "summary": "awesome-design-md: plain Markdown design system files modeled on 55+ companies like Stripe, Vercel, Linear and Apple. Drop one in your project so Claude Code builds UI in that style.",
+   "topic": "ai"
   },
   {
    "id": "ZTkUA3soU",
@@ -1617,39 +1456,35 @@
    "sent": "2026-04-11T16:01:59Z",
    "note": "agentic.james on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Every Claude Code feature in plain English: CLAUDE.md, MCP, slash commands, subagents, hooks and skills.",
+   "topic": "ai"
   },
   {
    "id": "ZTkUhJHQL",
    "url": "https://www.tiktok.com/t/ZTkUhJHQL/",
    "sent": "2026-04-11T14:21:54Z",
    "note": "Will Francis - AI + Marketing on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "willfrancis24",
+   "summary": "Five things to set up when you start with Claude: custom instructions, memory, writing styles and connecting your tools.",
+   "topic": "ai"
   },
   {
    "id": "ZTkU6tFkB",
    "url": "https://www.tiktok.com/t/ZTkU6tFkB/",
    "sent": "2026-04-11T13:39:53Z",
    "note": "Claude skills",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "nathanhodgson.ai",
+   "summary": "60+ open-source skills for Claude.",
+   "topic": "ai"
   },
   {
    "id": "ZTkUj82BS",
    "url": "https://www.tiktok.com/t/ZTkUj82BS/",
    "sent": "2026-04-11T13:07:23Z",
    "note": "Justyn | The AI Guy on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "justyn.ai",
+   "summary": "Top five skills for the Claude desktop app.",
+   "topic": "ai"
   },
   {
    "id": "ZTkU2Vp3q",
@@ -1657,9 +1492,8 @@
    "sent": "2026-04-11T13:03:35Z",
    "note": "Watch this!!!!!!! Claude",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "All 35 Claude Code concepts explained for non-coders.",
+   "topic": "ai"
   },
   {
    "id": "ZTkhux9AS",
@@ -1667,8 +1501,7 @@
    "sent": "2026-04-05T13:12:32Z",
    "note": "Maurice Stv on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Five habits for walking energy and stamina.",
    "topic": "other"
   },
   {
@@ -1677,8 +1510,7 @@
    "sent": "2026-04-05T13:00:50Z",
    "note": "Empower Health + Performance on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "Three exercises for SI joint pain in the low back or upper glute, aimed at glute tension, core stability and pelvic control.",
    "topic": "other"
   },
   {
@@ -1686,9 +1518,8 @@
    "url": "https://www.tiktok.com/t/ZTkhB7VK3/",
    "sent": "2026-04-05T02:34:57Z",
    "note": "yogawithkatharine on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "yogawithkatharine",
+   "summary": "Five movements for people who sit all day.",
    "topic": "other"
   },
   {
@@ -1696,9 +1527,8 @@
    "url": "https://www.tiktok.com/t/ZTkhkQSjS/",
    "sent": "2026-04-05T01:34:04Z",
    "note": "yogawithkatharine on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "yogawithkatharine",
+   "summary": "Five daily mobility movements.",
    "topic": "other"
   },
   {
@@ -1706,9 +1536,8 @@
    "url": "https://www.tiktok.com/t/ZTkhSbyLW/",
    "sent": "2026-04-05T02:44:40Z",
    "note": "nilitaichi.guide on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "nilitaichi.guide",
+   "summary": "A wall exercise to ease lower back tension and build core and hip stability.",
    "topic": "other"
   },
   {
@@ -1716,9 +1545,8 @@
    "url": "https://www.tiktok.com/t/ZTkhk51sa/",
    "sent": "2026-04-05T01:36:42Z",
    "note": "Taichi At Home on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "taichiathome",
+   "summary": "A tai chi leg swing and lift sequence for hip mobility and lower back stiffness.",
    "topic": "other"
   },
   {
@@ -1726,9 +1554,8 @@
    "url": "https://www.tiktok.com/t/ZTkhSApQQ/",
    "sent": "2026-04-05T02:40:19Z",
    "note": "SynerMuscle on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "synermuscle",
+   "summary": "A hip flexor (iliopsoas) stretch for lower back pain.",
    "topic": "other"
   },
   {
@@ -1736,9 +1563,8 @@
    "url": "https://www.tiktok.com/t/ZTkhSM54f/",
    "sent": "2026-04-05T02:37:13Z",
    "note": "SynerMuscle on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "synermuscle",
+   "summary": "A lower back extension movement to restore mobility.",
    "topic": "other"
   },
   {
@@ -1747,8 +1573,7 @@
    "sent": "2026-04-05T02:42:08Z",
    "note": "DrHermit on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A fitness tip with only hashtags in the caption, so I can't tell what it covers.",
    "topic": "other"
   },
   {
@@ -1757,8 +1582,7 @@
    "sent": "2026-03-11T11:32:06Z",
    "note": "Harry Potter full cast audiobook",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "The full-cast audiobook of Harry Potter and the Order of the Phoenix, with Keira Knightley as Dolores Umbridge.",
    "topic": "other"
   },
   {
@@ -1766,19 +1590,17 @@
    "url": "https://www.tiktok.com/t/ZThW1eKVr/",
    "sent": "2026-03-02T01:35:32Z",
    "note": "Claude stuff",
-   "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "creator": "nocode.joshua",
+   "summary": "How to set up Claude as a complete beginner, with three free resources.",
+   "topic": "ai"
   },
   {
    "id": "ZTht6eMVx",
    "url": "https://www.tiktok.com/t/ZTht6eMVx/",
    "sent": "2026-02-28T02:24:57Z",
    "note": "CaTech on TikTok",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "catech628",
+   "summary": "A cat icon for your Windows taskbar that shows CPU use in real time.",
    "topic": "other"
   },
   {
@@ -1787,9 +1609,8 @@
    "sent": "2026-02-27T14:50:31Z",
    "note": "AI with NI on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Step 2 of setting up Claude Code: the creator's workspace folder structure.",
+   "topic": "ai"
   },
   {
    "id": "ZThs4bTVx",
@@ -1797,18 +1618,16 @@
    "sent": "2026-02-26T17:19:01Z",
    "note": "Your Chief AI Officer on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Three resources to get more out of Claude.",
+   "topic": "ai"
   },
   {
    "id": "ZThpYcFxw",
    "url": "https://www.tiktok.com/t/ZThpYcFxw/",
    "sent": "2026-02-25T04:17:36Z",
    "note": "Hips",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "thedocdir",
+   "summary": "For hip, glute or SI joint pain that feels like sciatica but may be a glute tendon problem that needs strengthening.",
    "topic": "other"
   },
   {
@@ -1816,9 +1635,8 @@
    "url": "https://www.tiktok.com/t/ZTh4TG7AY/",
    "sent": "2026-02-20T01:37:18Z",
    "note": "Shipwreck stew",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "chelsea.shafer",
+   "summary": "A crockpot shipwreck stew of ground meat, potatoes, carrots, celery, kidney beans and tomatoes.",
    "topic": "other"
   },
   {
@@ -1827,9 +1645,8 @@
    "sent": "2026-02-17T12:55:32Z",
    "note": "Google ai courses (free)",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "Free Google AI courses, per your note. TikTok says the video is no longer available.",
+   "topic": "ai"
   },
   {
    "id": "ZThxVbHvW",
@@ -1837,9 +1654,8 @@
    "sent": "2026-02-14T22:22:02Z",
    "note": "Claude cowork",
    "creator": "",
-   "caption": "",
-   "summary": "",
-   "topic": "other"
+   "summary": "A 30-second tip on how to really use Claude Cowork.",
+   "topic": "ai"
   },
   {
    "id": "ZThHWUSjb",
@@ -1847,8 +1663,7 @@
    "sent": "2026-02-12T22:58:45Z",
    "note": "Lego transformers alternate builds",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "An alternate build of the LEGO Transformers Bumblebee set by Ransom Fern, with better proportions and a more dynamic robot mode.",
    "topic": "other"
   },
   {
@@ -1857,8 +1672,7 @@
    "sent": "2026-01-06T07:57:18Z",
    "note": "Love Music 2026 on TikTok",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A 90s dance music post.",
    "topic": "other"
   },
   {
@@ -1867,8 +1681,7 @@
    "sent": "2026-01-01T22:33:49Z",
    "note": "Cube",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "How to solve a Rubik's Cube.",
    "topic": "other"
   },
   {
@@ -1876,9 +1689,8 @@
    "url": "https://www.tiktok.com/t/ZTh1E47JQ/",
    "sent": "2026-01-01T19:55:02Z",
    "note": "Chipotle chicken",
-   "creator": "",
-   "caption": "",
-   "summary": "",
+   "creator": "csbruce",
+   "summary": "A copycat Chipotle chicken recipe with a chipotle-in-adobo and lime marinade.",
    "topic": "other"
   },
   {
@@ -1887,8 +1699,7 @@
    "sent": "2025-12-29T13:27:19Z",
    "note": "Tag conspiracy",
    "creator": "",
-   "caption": "",
-   "summary": "",
+   "summary": "A light history conspiracy theory about the game of tag.",
    "topic": "other"
   },
   {
@@ -1897,7 +1708,6 @@
    "sent": "2025-12-24T02:48:36Z",
    "note": "Lego a wing",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1907,7 +1717,6 @@
    "sent": "2025-12-23T23:54:27Z",
    "note": "Furo on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1917,7 +1726,6 @@
    "sent": "2025-12-23T03:34:57Z",
    "note": "Wizard theme hotel",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1927,7 +1735,6 @@
    "sent": "2025-12-20T23:50:41Z",
    "note": "Ronnie | Cozy Gaming 🍄🌿 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1937,7 +1744,6 @@
    "sent": "2025-12-20T23:49:42Z",
    "note": "SetupsAI on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1947,7 +1753,6 @@
    "sent": "2025-12-19T12:03:14Z",
    "note": "digitalpianoschool on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1957,7 +1762,6 @@
    "sent": "2025-12-13T02:31:59Z",
    "note": "Check out EnderToys’s video! #TikTok >",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1967,7 +1771,6 @@
    "sent": "2025-12-13T03:36:13Z",
    "note": "80’s rap songs",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1977,7 +1780,6 @@
    "sent": "2025-12-13T04:23:52Z",
    "note": "Pump up the volume",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1987,7 +1789,6 @@
    "sent": "2025-12-13T03:37:19Z",
    "note": "Freak a zoids",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -1997,7 +1798,6 @@
    "sent": "2025-12-04T03:56:32Z",
    "note": "MixTape on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2007,7 +1807,6 @@
    "sent": "2025-12-04T01:15:31Z",
    "note": "Frezzlock on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2017,7 +1816,6 @@
    "sent": "2025-12-02T01:07:24Z",
    "note": "The House Of Movies🍿 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2027,7 +1825,6 @@
    "sent": "2025-12-01T00:31:00Z",
    "note": "Screened & Scored on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2037,7 +1834,6 @@
    "sent": "2025-12-01T00:28:26Z",
    "note": "TV Friend on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2047,7 +1843,6 @@
    "sent": "2025-12-01T00:23:23Z",
    "note": "TV Friend on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2057,7 +1852,6 @@
    "sent": "2025-12-01T00:26:20Z",
    "note": "Ricardo on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2067,7 +1861,6 @@
    "sent": "2025-11-30T23:28:16Z",
    "note": "TV Friend on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2077,7 +1870,6 @@
    "sent": "2025-11-27T05:13:35Z",
    "note": "twisted.reads.official on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2087,7 +1879,6 @@
    "sent": "2025-11-15T02:09:38Z",
    "note": "Top Movies/Tv Shows on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2097,7 +1888,6 @@
    "sent": "2025-11-11T11:54:25Z",
    "note": "chrisfrombeachside on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2107,7 +1897,6 @@
    "sent": "2025-10-19T01:23:55Z",
    "note": "Pens",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2117,7 +1906,6 @@
    "sent": "2025-10-16T01:52:53Z",
    "note": "Lego tiny desert garden",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2127,7 +1915,6 @@
    "sent": "2025-10-12T18:33:51Z",
    "note": "80’s cartoons",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2137,7 +1924,6 @@
    "sent": "2025-10-12T18:17:41Z",
    "note": "Giant Lego Halloween parts",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2147,7 +1933,6 @@
    "sent": "2025-10-09T00:00:20Z",
    "note": "Update AirPods",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2157,7 +1942,6 @@
    "sent": "2025-10-08T23:40:30Z",
    "note": "ReadyExcels on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2167,7 +1951,6 @@
    "sent": "2025-10-08T23:27:39Z",
    "note": "Google sheet template ideas",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2177,7 +1960,6 @@
    "sent": "2025-10-02T13:26:22Z",
    "note": "ChatGTP map app integration",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2187,7 +1969,6 @@
    "sent": "2025-09-25T01:54:27Z",
    "note": "CarPlay lyrics",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2197,7 +1978,6 @@
    "sent": "2025-09-16T02:52:43Z",
    "note": "Self Made Coders on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2207,7 +1987,6 @@
    "sent": "2025-09-16T02:59:59Z",
    "note": "IT Challenges on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2217,7 +1996,6 @@
    "sent": "2025-09-06T02:36:12Z",
    "note": "Windows reserved bandwidth",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2227,7 +2005,6 @@
    "sent": "2025-09-06T01:56:38Z",
    "note": "Smart & Easy | Tech & AI on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2237,7 +2014,6 @@
    "sent": "2025-08-27T01:52:04Z",
    "note": "Hallmark horror ornament",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2247,7 +2023,6 @@
    "sent": "2025-08-25T00:28:25Z",
    "note": "Pot roast",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2257,7 +2032,6 @@
    "sent": "2025-08-22T01:09:27Z",
    "note": "Critical Error Computing on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2267,7 +2041,6 @@
    "sent": "2025-08-18T04:23:29Z",
    "note": "Headline news by weird Al",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2277,7 +2050,6 @@
    "sent": "2025-08-17T00:52:50Z",
    "note": "The Pig Room on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2287,7 +2059,6 @@
    "sent": "2025-08-11T19:02:16Z",
    "note": "friendly_guinea_pigs on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2297,7 +2068,6 @@
    "sent": "2025-08-05T05:55:26Z",
    "note": "The House Of Movies🍿 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2307,7 +2077,6 @@
    "sent": "2025-08-05T05:53:23Z",
    "note": "The House Of Movies🍿 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2317,7 +2086,6 @@
    "sent": "2025-08-05T05:49:28Z",
    "note": "Netflix_Series😈 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2327,7 +2095,6 @@
    "sent": "2025-08-05T05:46:09Z",
    "note": "Netflix_Series😈 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2337,7 +2104,6 @@
    "sent": "2025-07-26T03:32:40Z",
    "note": "Dancing Astronaut on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2347,7 +2113,6 @@
    "sent": "2025-07-15T01:19:23Z",
    "note": "Charm.li car data",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2357,7 +2122,6 @@
    "sent": "2025-07-13T00:42:29Z",
    "note": "NFlix Hub on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2367,7 +2131,6 @@
    "sent": "2025-07-13T02:10:24Z",
    "note": "Action movies",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2377,7 +2140,6 @@
    "sent": "2025-06-13T00:15:09Z",
    "note": "NFlix Hub on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2387,7 +2149,6 @@
    "sent": "2025-05-17T01:35:13Z",
    "note": "ONE-UP MOTO GARAGE on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2397,7 +2158,6 @@
    "sent": "2025-05-16T17:49:42Z",
    "note": "🤖It’s Better With Ai on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2407,7 +2167,6 @@
    "sent": "2025-04-29T21:49:59Z",
    "note": "Chatgtp setting",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2417,7 +2176,6 @@
    "sent": "2024-07-06T13:51:39Z",
    "note": "Need roadmaps",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2427,7 +2185,6 @@
    "sent": "2024-06-30T13:50:21Z",
    "note": "Desk idea",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2437,7 +2194,6 @@
    "sent": "2024-03-11T13:07:37Z",
    "note": "Time travel movies",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2447,7 +2203,6 @@
    "sent": "2024-02-08T23:57:38Z",
    "note": "Disaster movies",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2457,7 +2212,6 @@
    "sent": "2024-02-03T03:56:24Z",
    "note": "📚𝐍ostalgia 𝐋ibrary📚 on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2467,7 +2221,6 @@
    "sent": "2024-02-03T02:17:57Z",
    "note": "The Tudors🗡️",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2477,7 +2230,6 @@
    "sent": "2023-10-08T18:50:23Z",
    "note": "Ai sites",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2487,7 +2239,6 @@
    "sent": "2023-10-08T18:44:42Z",
    "note": "ChatGPT",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   },
@@ -2497,7 +2248,6 @@
    "sent": "2023-09-18T01:12:47Z",
    "note": "Tin_minecraft on TikTok",
    "creator": "",
-   "caption": "",
    "summary": "",
    "topic": "other"
   }
