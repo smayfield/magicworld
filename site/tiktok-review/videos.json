@@ -1,5 +1,43 @@
 {
- "updated": "2026-11-19T15:35:05Z",
+ "updated": "2026-11-19T15:46:42Z",
+ "removed": [
+  "ZPL39yXFG",
+  "ZTPJo9t6F",
+  "ZPLx3dSU3",
+  "ZTDytVGr9",
+  "ZTD223bnv",
+  "ZTSCEEKdm",
+  "ZTks7ymte",
+  "ZTks7AjGg",
+  "ZTks7H5Mo",
+  "ZTks7HUtS",
+  "ZTksFLqT4",
+  "ZTkuWK37C",
+  "ZTkumYkrM",
+  "ZThCDCJMX",
+  "ZTrPgjJtJ",
+  "ZTrUTncT1",
+  "ZTr6J4dNB",
+  "ZTMSr2PaD",
+  "ZTMSMXopJ",
+  "ZT6ocWbjN",
+  "ZT6y9447f",
+  "ZT6y9g2rF",
+  "ZT6y94UEE",
+  "ZT6y9aQyy",
+  "ZT6L86Gtf",
+  "ZT6LN2wre",
+  "ZTjsEc3uA",
+  "ZTNhuK4R8",
+  "ZTNjpEPm9",
+  "ZPRTeEcoo",
+  "ZPR3Ah6tY",
+  "ZPR3jGdDJ",
+  "ZPR3j6JDc",
+  "ZPR7a2vjH",
+  "ZPR7amnAB",
+  "ZT8jsT8nF"
+ ],
  "videos": [
   {
    "id": "ZPN8jbfgB",
@@ -98,15 +136,6 @@
    "note": "Maverick Maltin | AI & ChatGPT on TikTok",
    "creator": "maverickgpt",
    "summary": "Using Claude Code to check your home router and find what's slowing your Wi-Fi, with a speed test and a list of bandwidth hogs. It asks you to type your router password into Claude, so weigh that before trying it.",
-   "topic": "ai"
-  },
-  {
-   "id": "ZPL39yXFG",
-   "url": "https://www.tiktok.com/t/ZPL39yXFG/",
-   "sent": "2026-11-14T14:36:56Z",
-   "note": "glenshustle on TikTok",
-   "creator": "glenshustle",
-   "summary": "From glenshustle, who posts Claude business prompts. TikTok wouldn't show this one without signing in, so I couldn't read it.",
    "topic": "ai"
   },
   {
@@ -233,24 +262,6 @@
    "note": "Audible on TikTok",
    "creator": "Audible",
    "summary": "An Audible ad for Exoplanet, an Andy Weir audio thriller with Anthony Mackie, Ariana DeBose and John Leguizamo.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTPJo9t6F",
-   "url": "https://www.tiktok.com/t/ZTPJo9t6F/",
-   "sent": "2026-11-05T14:22:34Z",
-   "note": "QwikTwik on TikTok",
-   "creator": "qwiktwik.com",
-   "summary": "A QwikTwik Windows tip. TikTok said it isn't available in this region, so I couldn't read it.",
-   "topic": "other"
-  },
-  {
-   "id": "ZPLx3dSU3",
-   "url": "https://www.tiktok.com/t/ZPLx3dSU3/",
-   "sent": "2026-11-05T14:20:15Z",
-   "note": "Veronica Roy on TikTok",
-   "creator": "iamveronicaroy",
-   "summary": "From Veronica Roy. TikTok wouldn't show this one without signing in, so I couldn't read it.",
    "topic": "other"
   },
   {
@@ -794,30 +805,12 @@
    "topic": "other"
   },
   {
-   "id": "ZTDytVGr9",
-   "url": "https://www.tiktok.com/t/ZTDytVGr9/",
-   "sent": "2026-08-20T18:55:30Z",
-   "note": "dotsokt on TikTok",
-   "creator": "dotsokt",
-   "summary": "From dotsokt. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
    "id": "ZTDkyk7uv",
    "url": "https://www.tiktok.com/t/ZTDkyk7uv/",
    "sent": "2026-08-18T10:54:58Z",
    "note": "Second brain",
    "creator": "pro.glitch",
    "summary": "Building a \"second brain\" as plain folders and files on a hard drive, so any AI can read it and you're not locked into one app.",
-   "topic": "ai"
-  },
-  {
-   "id": "ZTD223bnv",
-   "url": "https://www.tiktok.com/t/ZTD223bnv/",
-   "sent": "2026-08-15T20:53:31Z",
-   "note": "zoeyos.ai on TikTok",
-   "creator": "zoeyos.ai",
-   "summary": "From zoeyos.ai. TikTok says this video is no longer available.",
    "topic": "ai"
   },
   {
@@ -981,15 +974,6 @@
    "creator": "masteringmachines",
    "summary": "A software engineering book the creator calls one of the best. The caption doesn't name it.",
    "topic": "ai"
-  },
-  {
-   "id": "ZTSCEEKdm",
-   "url": "https://www.tiktok.com/t/ZTSCEEKdm/",
-   "sent": "2026-07-09T03:13:14Z",
-   "note": "4 Mavericks on TikTok",
-   "creator": "",
-   "summary": "From 4 Mavericks. TikTok says this video is no longer available.",
-   "topic": "other"
   },
   {
    "id": "ZTS5PMEgd",
@@ -1262,51 +1246,6 @@
    "topic": "other"
   },
   {
-   "id": "ZTks7ymte",
-   "url": "https://www.tiktok.com/t/ZTks7ymte/",
-   "sent": "2026-05-03T14:10:35Z",
-   "note": "Video cards 4",
-   "creator": "",
-   "summary": "Part 4 of the graphics card brand series. TikTok says it's no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTks7AjGg",
-   "url": "https://www.tiktok.com/t/ZTks7AjGg/",
-   "sent": "2026-05-03T14:09:03Z",
-   "note": "Video cards 3",
-   "creator": "",
-   "summary": "Part 3 of the graphics card brand series. TikTok says it's no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTks7H5Mo",
-   "url": "https://www.tiktok.com/t/ZTks7H5Mo/",
-   "sent": "2026-05-03T14:08:13Z",
-   "note": "Video cards 2",
-   "creator": "",
-   "summary": "Part 2 of the graphics card brand series. TikTok says it's no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTks7HUtS",
-   "url": "https://www.tiktok.com/t/ZTks7HUtS/",
-   "sent": "2026-05-03T14:07:37Z",
-   "note": "Video cards explained",
-   "creator": "",
-   "summary": "Part 1 of the graphics card brand series. TikTok says it's no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTksFLqT4",
-   "url": "https://www.tiktok.com/t/ZTksFLqT4/",
-   "sent": "2026-05-02T17:14:57Z",
-   "note": "Martins Kremeris on TikTok",
-   "creator": "",
-   "summary": "From Martins Kremeris. TikTok says it's no longer available.",
-   "topic": "other"
-  },
-  {
    "id": "ZTkgfD4U3",
    "url": "https://www.tiktok.com/t/ZTkgfD4U3/",
    "sent": "2026-05-01T01:48:08Z",
@@ -1334,30 +1273,12 @@
    "topic": "other"
   },
   {
-   "id": "ZTkuWK37C",
-   "url": "https://www.tiktok.com/t/ZTkuWK37C/",
-   "sent": "2026-04-19T22:21:14Z",
-   "note": "FitnessWorkoutchannel on TikTok",
-   "creator": "",
-   "summary": "A workout video. TikTok says it's no longer available.",
-   "topic": "other"
-  },
-  {
    "id": "ZTkumUHGp",
    "url": "https://www.tiktok.com/t/ZTkumUHGp/",
    "sent": "2026-04-19T12:53:49Z",
    "note": "Jules_horn on TikTok",
    "creator": "",
    "summary": "A post from Jules Horn with no caption, so I can't tell what it covers.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTkumYkrM",
-   "url": "https://www.tiktok.com/t/ZTkumYkrM/",
-   "sent": "2026-04-19T12:53:20Z",
-   "note": "SweatSquadUSA on TikTok",
-   "creator": "",
-   "summary": "A workout video from SweatSquadUSA. TikTok says it's no longer available.",
    "topic": "other"
   },
   {
@@ -1640,15 +1561,6 @@
    "topic": "other"
   },
   {
-   "id": "ZThCDCJMX",
-   "url": "https://www.tiktok.com/t/ZThCDCJMX/",
-   "sent": "2026-02-17T12:55:32Z",
-   "note": "Google ai courses (free)",
-   "creator": "",
-   "summary": "Free Google AI courses, per your note. TikTok says the video is no longer available.",
-   "topic": "ai"
-  },
-  {
    "id": "ZThxVbHvW",
    "url": "https://www.tiktok.com/t/ZThxVbHvW/",
    "sent": "2026-02-14T22:22:02Z",
@@ -1802,24 +1714,6 @@
    "topic": "other"
   },
   {
-   "id": "ZTrPgjJtJ",
-   "url": "https://www.tiktok.com/t/ZTrPgjJtJ/",
-   "sent": "2025-12-04T01:15:31Z",
-   "note": "Frezzlock on TikTok",
-   "creator": "",
-   "summary": "From Frezzlock. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTrUTncT1",
-   "url": "https://www.tiktok.com/t/ZTrUTncT1/",
-   "sent": "2025-12-02T01:07:24Z",
-   "note": "The House Of Movies🍿 on TikTok",
-   "creator": "",
-   "summary": "A movie pick from The House of Movies. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
    "id": "ZTrA5mvmx",
    "url": "https://www.tiktok.com/t/ZTrA5mvmx/",
    "sent": "2025-12-01T00:31:00Z",
@@ -1862,15 +1756,6 @@
    "note": "TV Friend on TikTok",
    "creator": "tv_friend",
    "summary": "Six shows to binge: Animal Kingdom, Wentworth, Call the Midwife, Shameless, Queen of the South and Friday Night Lights.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTr6J4dNB",
-   "url": "https://www.tiktok.com/t/ZTr6J4dNB/",
-   "sent": "2025-11-27T05:13:35Z",
-   "note": "twisted.reads.official on TikTok",
-   "creator": "twisted.reads.official",
-   "summary": "From Twisted Reads. TikTok says this video is no longer available.",
    "topic": "other"
   },
   {
@@ -1937,24 +1822,6 @@
    "topic": "other"
   },
   {
-   "id": "ZTMSr2PaD",
-   "url": "https://www.tiktok.com/t/ZTMSr2PaD/",
-   "sent": "2025-10-08T23:40:30Z",
-   "note": "ReadyExcels on TikTok",
-   "creator": "",
-   "summary": "From ReadyExcels. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTMSMXopJ",
-   "url": "https://www.tiktok.com/t/ZTMSMXopJ/",
-   "sent": "2025-10-08T23:27:39Z",
-   "note": "Google sheet template ideas",
-   "creator": "",
-   "summary": "You noted this as \"Google sheet template ideas.\" TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
    "id": "ZTM6EVW9D",
    "url": "https://www.tiktok.com/t/ZTM6EVW9D/",
    "sent": "2025-10-02T13:26:22Z",
@@ -1979,15 +1846,6 @@
    "note": "Self Made Coders on TikTok",
    "creator": "",
    "summary": "JSON Crack, a VS Code extension that turns JSON into a visual graph.",
-   "topic": "other"
-  },
-  {
-   "id": "ZT6ocWbjN",
-   "url": "https://www.tiktok.com/t/ZT6ocWbjN/",
-   "sent": "2025-09-16T02:59:59Z",
-   "note": "IT Challenges on TikTok",
-   "creator": "itchallenges",
-   "summary": "From IT Challenges. TikTok says this video is no longer available.",
    "topic": "other"
   },
   {
@@ -2063,42 +1921,6 @@
    "topic": "other"
   },
   {
-   "id": "ZT6y9447f",
-   "url": "https://www.tiktok.com/t/ZT6y9447f/",
-   "sent": "2025-08-05T05:55:26Z",
-   "note": "The House Of Movies🍿 on TikTok",
-   "creator": "",
-   "summary": "A movie pick from The House of Movies. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZT6y9g2rF",
-   "url": "https://www.tiktok.com/t/ZT6y9g2rF/",
-   "sent": "2025-08-05T05:53:23Z",
-   "note": "The House Of Movies🍿 on TikTok",
-   "creator": "",
-   "summary": "A movie pick from The House of Movies. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZT6y94UEE",
-   "url": "https://www.tiktok.com/t/ZT6y94UEE/",
-   "sent": "2025-08-05T05:49:28Z",
-   "note": "Netflix_Series😈 on TikTok",
-   "creator": "",
-   "summary": "A Netflix series pick. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZT6y9aQyy",
-   "url": "https://www.tiktok.com/t/ZT6y9aQyy/",
-   "sent": "2025-08-05T05:46:09Z",
-   "note": "Netflix_Series😈 on TikTok",
-   "creator": "",
-   "summary": "A Netflix series pick. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
    "id": "ZT6hVnryg",
    "url": "https://www.tiktok.com/t/ZT6hVnryg/",
    "sent": "2025-07-26T03:32:40Z",
@@ -2114,33 +1936,6 @@
    "note": "Charm.li car data",
    "creator": "",
    "summary": "Charm.li, a free site with car repair and service data, per your note.",
-   "topic": "other"
-  },
-  {
-   "id": "ZT6L86Gtf",
-   "url": "https://www.tiktok.com/t/ZT6L86Gtf/",
-   "sent": "2025-07-13T00:42:29Z",
-   "note": "NFlix Hub on TikTok",
-   "creator": "",
-   "summary": "A movie or show pick from NFlix Hub. TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZT6LN2wre",
-   "url": "https://www.tiktok.com/t/ZT6LN2wre/",
-   "sent": "2025-07-13T02:10:24Z",
-   "note": "Action movies",
-   "creator": "",
-   "summary": "You noted this as \"Action movies.\" TikTok says this video is no longer available.",
-   "topic": "other"
-  },
-  {
-   "id": "ZTjsEc3uA",
-   "url": "https://www.tiktok.com/t/ZTjsEc3uA/",
-   "sent": "2025-06-13T00:15:09Z",
-   "note": "NFlix Hub on TikTok",
-   "creator": "",
-   "summary": "A movie or show pick from NFlix Hub. TikTok says this video is no longer available.",
    "topic": "other"
   },
   {
@@ -2169,87 +1964,6 @@
    "creator": "",
    "summary": "A prompt to make ChatGPT stop agreeing with everything and push back more.",
    "topic": "ai"
-  },
-  {
-   "id": "ZTNhuK4R8",
-   "url": "https://www.tiktok.com/t/ZTNhuK4R8/",
-   "sent": "2024-07-06T13:51:39Z",
-   "note": "Need roadmaps",
-   "creator": "",
-   "summary": "You noted this as \"Need roadmaps.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "ai"
-  },
-  {
-   "id": "ZTNjpEPm9",
-   "url": "https://www.tiktok.com/t/ZTNjpEPm9/",
-   "sent": "2024-06-30T13:50:21Z",
-   "note": "Desk idea",
-   "creator": "",
-   "summary": "You noted this as \"Desk idea.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "other"
-  },
-  {
-   "id": "ZPRTeEcoo",
-   "url": "https://www.tiktok.com/t/ZPRTeEcoo/",
-   "sent": "2024-03-11T13:07:37Z",
-   "note": "Time travel movies",
-   "creator": "",
-   "summary": "You noted this as \"Time travel movies.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "other"
-  },
-  {
-   "id": "ZPR3Ah6tY",
-   "url": "https://www.tiktok.com/t/ZPR3Ah6tY/",
-   "sent": "2024-02-08T23:57:38Z",
-   "note": "Disaster movies",
-   "creator": "",
-   "summary": "You noted this as \"Disaster movies.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "other"
-  },
-  {
-   "id": "ZPR3jGdDJ",
-   "url": "https://www.tiktok.com/t/ZPR3jGdDJ/",
-   "sent": "2024-02-03T03:56:24Z",
-   "note": "📚𝐍ostalgia 𝐋ibrary📚 on TikTok",
-   "creator": "",
-   "summary": "From Nostalgia Library. The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "other"
-  },
-  {
-   "id": "ZPR3j6JDc",
-   "url": "https://www.tiktok.com/t/ZPR3j6JDc/",
-   "sent": "2024-02-03T02:17:57Z",
-   "note": "The Tudors🗡️",
-   "creator": "",
-   "summary": "You noted this as \"The Tudors.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "other"
-  },
-  {
-   "id": "ZPR7a2vjH",
-   "url": "https://www.tiktok.com/t/ZPR7a2vjH/",
-   "sent": "2023-10-08T18:50:23Z",
-   "note": "Ai sites",
-   "creator": "",
-   "summary": "You noted this as \"Ai sites.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "ai"
-  },
-  {
-   "id": "ZPR7amnAB",
-   "url": "https://www.tiktok.com/t/ZPR7amnAB/",
-   "sent": "2023-10-08T18:44:42Z",
-   "note": "ChatGPT",
-   "creator": "",
-   "summary": "You noted this as \"ChatGPT.\" The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "ai"
-  },
-  {
-   "id": "ZT8jsT8nF",
-   "url": "https://www.tiktok.com/t/ZT8jsT8nF/",
-   "sent": "2023-09-18T01:12:47Z",
-   "note": "Tin_minecraft on TikTok",
-   "creator": "",
-   "summary": "A Minecraft post. The link now just opens TikTok's main feed, so the video is likely gone.",
-   "topic": "other"
   }
  ]
 }
