@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TikTok Review · MagicWorld</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0c2a1c">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/main.js" defer></script>
+  <script src="review.js" defer></script>
+  <style>
+    .rv-main { padding: 32px 0 64px; }
+    .rv-bar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-bottom: 20px; }
+    .rv-bar .count { color: var(--muted); margin-right: auto; }
+    .rv-chip { font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--text); cursor: pointer; }
+    .rv-chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+    .rv-search { font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--text); min-width: 0; flex: 1 1 180px; max-width: 280px; }
+    .rv-day { font-family: var(--display); font-size: 18px; font-weight: 600; margin: 28px 0 10px; color: var(--muted); }
+    .rv-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+    .rv-item { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; padding: 14px 16px; border-radius: 14px;
+      background: var(--surface); border: 1px solid var(--border); }
+    .rv-item.done { opacity: .55; }
+    .rv-item.done .rv-note { text-decoration: line-through; }
+    .rv-item input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--accent); cursor: pointer; }
+    .rv-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+    .rv-note { font-weight: 600; overflow-wrap: anywhere; }
+    .rv-note a { color: inherit; text-decoration: none; }
+    .rv-note a:hover { color: var(--accent); text-decoration: underline; }
+    .rv-meta { color: var(--muted); font-size: 13px; }
+    .rv-tag { font-size: 12px; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+    .rv-sum { grid-column: 2; margin: 0; overflow-wrap: anywhere; }
+    .rv-sum.unknown { color: var(--muted); font-style: italic; }
+    .rv-empty { color: var(--muted); padding: 24px 0; }
+    .rv-foot { color: var(--muted); font-size: 13px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <header class="hero compact">
+    <div class="moon" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
+    <canvas class="fireflies" aria-hidden="true"></canvas>
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal">magicworld.com</p>
+      <h1 class="title reveal">TikTok review list</h1>
+      <p class="lede reveal">Videos I sent myself to look at later, with what each one covers. Updated every morning.</p>
+    </div>
+  </header>
+
+  <main class="wrap rv-main">
+    <div class="rv-bar">
+      <span class="count" id="rv-count">Loading…</span>
+      <button class="rv-chip" data-filter="todo" aria-pressed="true">To review</button>
+      <button class="rv-chip" data-filter="ai" aria-pressed="false">AI &amp; dev</button>
+      <button class="rv-chip" data-filter="all" aria-pressed="false">All</button>
+      <input class="rv-search" id="rv-search" type="search" placeholder="Search" aria-label="Search the list">
+    </div>
+    <div id="rv-out"></div>
+    <p class="rv-foot" id="rv-foot"></p>
+  </main>
+</body>
+</html>
