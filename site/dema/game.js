@@ -229,11 +229,17 @@
       const b = c.createBuffer(1, c.sampleRate, c.sampleRate), d = b.getChannelData(0);
       for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
       this.noise = b;
+      // a 25% pulse wave, the classic thin 8-bit lead
+      try {
+        const n = 32, re = new Float32Array(n), im = new Float32Array(n);
+        for (let k = 1; k < n; k++) re[k] = 2 / (k * Math.PI) * Math.sin(k * Math.PI * 0.25);
+        this.pulse = c.createPeriodicWave(re, im);
+      } catch (e) { this.pulse = null; }
       if (this.pending) { const p = this.pending; this.pending = null; Music.play(p); }
     },
     tone(type, f0, f1, t, dur, vol, dest) {
       const c = this.ctx, o = c.createOscillator(), g = c.createGain();
-      o.type = type;
+      if (type === 'pulse' && this.pulse) o.setPeriodicWave(this.pulse); else o.type = type === 'pulse' ? 'square' : type;
       o.frequency.setValueAtTime(f0, t);
       if (f1 !== f0) o.frequency.exponentialRampToValueAtTime(Math.max(1, f1), t + dur);
       g.gain.setValueAtTime(0.0001, t);
@@ -304,25 +310,54 @@
     s.len = Math.max(s.lead.length, s.bass.length, s.drums.length);
     return s;
   }
-  const DR1 = 'k . h . s . h . k k h . s . h h ';
+  // All tunes are original. They aim for the band's general feel (minor keys, a bouncing
+  // 3-3-2 bass, staccato leads, big builds), not any of its songs.
+  const pump = n => `${n} . . ${n} . . ${n} . ${n} . . ${n} . . ${n} .`;
+  const bars = (...b) => b.join(' ');
   const SONGS = {
-    title: song(96,
-      'A4 . C5 . E5 . D5 C5 B4 - - . G4 - A4 . A4 . C5 . E5 . G5 . F5 - E5 . D5 - - .',
-      bassBar('A') + ' ' + bassBar('C'), null),
-    dema: song(132,
-      'A4 . C5 . E5 . D5 C5 B4 - - . G4 - A4 . A4 . C5 . E5 . G5 . F5 - E5 . D5 - - . ' +
-      'F4 . A4 . C5 . F5 - E5 . D5 . C5 . B4 . E4 . G#4 . B4 . E5 - D5 . C5 . B4 - - .',
-      [bassBar('A'), bassBar('C'), bassBar('F'), bassBar('E')].join(' '), DR1.repeat(4)),
-    wall: song(150,
-      'D5 . D5 . F5 . D5 . A5 - G5 . F5 . E5 . D5 . D5 . F5 . A5 . C6 - A5 . G5 - - . ' +
-      'A#4 . D5 . F5 . A#5 - A5 . G5 . F5 . D5 . A4 . C#5 . E5 . A5 - G5 . E5 . C#5 - - .',
-      [bassBar('D'), bassBar('F'), bassBar('A#'), bassBar('A')].join(' '),
-      'k . h k s . h . k . h k s . h s '.repeat(4)),
-    trench: song(126,
-      'E4 . G4 . B4 . E5 - - . D5 . B4 . A4 . G4 . B4 . D5 . G5 - - . F#5 . D5 . B4 . ' +
-      'C5 . E5 . G5 . C6 - - . B5 . G5 . E5 . D5 . F#5 . A5 . B5 - - - - - - . . . .',
-      [bassBar('E'), bassBar('G'), bassBar('C'), bassBar('D')].join(' '),
-      'k . h . s . h . k . h . s . h k '.repeat(4)),
+    // quiet and uneasy: a slow pulse lead over a soft 3-3-2 bass
+    title: song(88, bars(
+      'E5 - - . D5 . C5 - - . D5 . E5 - - .',
+      'G5 - - - - - . . E5 . D5 . C5 - - .',
+      'A4 - - . C5 . D5 - - . E5 . D5 - C5 .',
+      'B4 - - - - - - - . . . . . . . .'),
+    bars(pump('A2'), pump('F2'), pump('C3'), pump('G2')), null),
+    // tense: clipped minor-key lead, syncopated kick and snare
+    dema: song(120, bars(
+      'D5 . D5 . F5 . . . E5 . D5 . C5 - - .',
+      'D5 . D5 . F5 . . . G5 . F5 . E5 - - .',
+      'A5 - - . G5 . F5 . E5 . F5 . G5 - - .',
+      'A5 - - - - - . . . . . . . . . .',
+      'F5 . F5 . E5 . D5 . C5 - - . D5 . . .',
+      'F5 . F5 . G5 . A5 . A#5 - - . A5 . . .',
+      'G5 . F5 . E5 . C#5 . D5 - - . E5 . . .',
+      'D5 - - - - - - - . . . . . . . .'),
+    bars(pump('D3'), pump('A#2'), pump('C3'), pump('A2'), pump('D3'), pump('A#2'), pump('C3'), pump('A2')),
+    'k . . k s . . . k . k . s . . . '.repeat(8)),
+    // moody climb: arpeggios that keep reaching higher, driving eighth-note bass
+    wall: song(138, bars(
+      'B4 . E5 . G5 . B5 - - . A5 . G5 . F#5 .',
+      'E5 - - . . . G5 . E5 . C5 - - . . .',
+      'D5 . G5 . B5 . D6 - - . C6 . B5 . A5 .',
+      'B5 - - - A5 - - - F#5 - - - D5 - - -',
+      'C5 . E5 . A5 . C6 - - . B5 . A5 . G5 .',
+      'E5 - - . G5 . E5 . C5 - - . . . . .',
+      'D5 . F#5 . A5 . D6 - - . C6 . A5 . F#5 .',
+      'D#5 - - . F#5 - - . B5 - - - - - . .'),
+    ['E', 'C', 'G', 'D', 'A', 'C', 'D', 'B'].map(bassBar).join(' '),
+    'k . h . s . h k k . h . s . h . '.repeat(8)),
+    // hopeful build: sparse at first, then the drums kick in and the lead climbs
+    trench: song(112, bars(
+      'E5 . . . G5 . . . A5 . B5 - - . . .',
+      'G5 . . . E5 . . . D5 . E5 - - . . .',
+      'G5 . . . B5 . . . D6 . B5 - - . A5 .',
+      'A5 - - - - - . . F#5 . G5 . A5 . . .',
+      'C6 - - . B5 . A5 . G5 - - . E5 . G5 .',
+      'B5 - - . A5 . G5 . D5 - - . G5 . A5 .',
+      'B5 . B5 . B5 . A5 . B5 - - . D6 . . .',
+      'E6 - - - - - - - - - - - . . . .'),
+    ['E', 'C', 'G', 'D', 'C', 'G', 'D', 'E'].map(bassBar).join(' '),
+    'k . . . . . . . k . . . s . . . '.repeat(4) + 'k . h k s . h . k k h . s . h h '.repeat(4)),
     clear: song(160, 'C5 E5 G5 C6 - - G5 C6 - - - - . . . .', 'C3 - - - G2 - - - C3 - - - - - . .', null, false),
     win: song(140, 'E5 G#5 B5 E6 - - B5 E6 - - - - . . . . B4 E5 G#5 B5 - - G#5 B5 E6 - - - - - - .',
       'E3 - - - B2 - - - E3 - - - - - . . E3 - - - B2 - - - E3 - - - - - - .', null, false),
@@ -352,7 +387,7 @@
         }
         const t = this.next, i = this.step, m = Snd.music;
         const L = s.lead[i], B = s.bass[i], D = s.drums[i];
-        if (L) Snd.tone('square', L.f, L.f, t, L.d * sd * 0.92, 0.12, m);
+        if (L) Snd.tone('pulse', L.f, L.f, t, L.d * sd * 0.92, 0.16, m);
         if (B) Snd.tone('triangle', B.f, B.f, t, B.d * sd * 0.9, 0.34, m);
         if (D === 'k' || D === 'x') Snd.tone('sine', 150, 40, t, 0.12, 0.55, m);
         if (D === 's') Snd.hiss(t, 0.12, 0.22, 1500, m);
@@ -1444,7 +1479,7 @@
   }
   Music.play('title');
   if (TEST) {
-    window.__dema = { G, keys, pressed, update, render, startLevel, newGame, LEVELS, tile };
+    window.__dema = { G, keys, pressed, update, render, startLevel, newGame, LEVELS, tile, SONGS };
   }
   requestAnimationFrame(frame);
 })();
