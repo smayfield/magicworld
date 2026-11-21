@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Escape from Dema · MagicWorld</title>
+  <meta name="description" content="An unofficial 8-bit fan game: slip past the bishops, climb the wall and reach Trench.">
+  <meta name="theme-color" content="#0b0b10">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <style>
+    html, body { margin: 0; height: 100%; background: #0b0b10; overflow: hidden; }
+    body { display: flex; align-items: center; justify-content: center; touch-action: none;
+      -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+    #game { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+    #touch { position: fixed; inset: 0; pointer-events: none; display: none; }
+    body.touch[data-state="play"] #touch, body.touch[data-state="dying"] #touch { display: block; }
+    .tb { position: absolute; pointer-events: auto; box-sizing: border-box; width: 64px; height: 64px; border-radius: 50%;
+      border: 2px solid rgba(248, 208, 56, .55); background: rgba(20, 20, 28, .45); color: #f8d038;
+      font: 700 22px/60px monospace; text-align: center; touch-action: none; }
+    .tb.on { background: rgba(248, 208, 56, .35); }
+    #tl { left: calc(14px + env(safe-area-inset-left)); bottom: calc(18px + env(safe-area-inset-bottom)); }
+    #tr { left: calc(90px + env(safe-area-inset-left)); bottom: calc(18px + env(safe-area-inset-bottom)); }
+    #tj { right: calc(14px + env(safe-area-inset-right)); bottom: calc(18px + env(safe-area-inset-bottom)); width: 72px; height: 72px; line-height: 68px; }
+    #ty { right: calc(98px + env(safe-area-inset-right)); bottom: calc(26px + env(safe-area-inset-bottom));
+      background: rgba(248, 208, 56, .2); }
+    #tp { right: calc(10px + env(safe-area-inset-right)); top: calc(22px + env(safe-area-inset-top)); width: 40px; height: 40px;
+      font-size: 13px; line-height: 36px; }
+    #tm { right: calc(56px + env(safe-area-inset-right)); top: calc(22px + env(safe-area-inset-top)); width: 40px; height: 40px;
+      font-size: 15px; line-height: 36px; }
+    .back { display: none; position: fixed; left: 10px; bottom: 8px; font: 12px/1.2 monospace; color: #77768a; text-decoration: none; }
+    .back:hover { color: #f8d038; }
+    body[data-state="title"] .back, body[data-state="win"] .back { display: block; }
+    noscript { color: #ecece2; font: 16px/1.5 monospace; padding: 24px; text-align: center; }
+  </style>
+</head>
+<body data-state="title">
+  <canvas id="game" width="320" height="180" aria-label="Escape from Dema, an 8-bit side-scrolling game"></canvas>
+  <div id="touch" aria-hidden="true">
+    <div class="tb" id="tl" data-k="left">&#9664;</div>
+    <div class="tb" id="tr" data-k="right">&#9654;</div>
+    <div class="tb" id="ty" data-k="yellow">Y</div>
+    <div class="tb" id="tj" data-k="jump">&#9650;</div>
+    <div class="tb" id="tm" data-k="mute">&#9835;</div>
+    <div class="tb" id="tp" data-k="pause">II</div>
+  </div>
+  <a class="back" href="/">&larr; magicworld.com</a>
+  <noscript>Escape from Dema needs JavaScript to run.</noscript>
+  <script src="game.js"></script>
+</body>
+</html>
