@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:46:42Z",
+ "updated": "2026-11-21T14:30:53Z",
  "removed": [
   "ZPL39yXFG",
   "ZTPJo9t6F",
@@ -39,6 +39,105 @@
   "ZT8jsT8nF"
  ],
  "videos": [
+  {
+   "id": "ZPNYwMt29",
+   "url": "https://www.tiktok.com/t/ZPNYwMt29/",
+   "sent": "2026-11-21T04:59:23Z",
+   "note": "Orca",
+   "creator": "imjonathanacuna",
+   "summary": "A 60-second setup for Orca: in its settings, turn on \"YOLO\" agents, then enable Claude, Codex and Grok.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTP9mGNQT",
+   "url": "https://www.tiktok.com/t/ZTP9mGNQT/",
+   "sent": "2026-11-20T12:50:37Z",
+   "note": "laeshaai on TikTok",
+   "creator": "laeshaai",
+   "summary": "A post from laeshaai. The caption only asks \"Yay or nay?\", so watch it to see what it's about.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTP9fh954",
+   "url": "https://www.tiktok.com/t/ZTP9fh954/",
+   "sent": "2026-11-20T07:45:43Z",
+   "note": "bob.curtis.creator on TikTok",
+   "creator": "bob.curtis.creator",
+   "summary": "FindSkills by Vercel, which matches the right Claude Code skills to your project so you don't have to read every README.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTP9faLBV",
+   "url": "https://www.tiktok.com/t/ZTP9faLBV/",
+   "sent": "2026-11-20T07:35:28Z",
+   "note": "halluqinate on TikTok",
+   "creator": "halluqinate",
+   "summary": "An argument that VS Code is fading as AI coding agents take over.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTP9yb7Ph",
+   "url": "https://www.tiktok.com/t/ZTP9yb7Ph/",
+   "sent": "2026-11-20T07:30:25Z",
+   "note": "Agents",
+   "creator": "saminyasar123",
+   "summary": "You noted this as \"Agents.\" The caption only offers an \"ECC\" resource by Instagram DM, likely the same 63-agent repo as an earlier post.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTP9y1TR2",
+   "url": "https://www.tiktok.com/t/ZTP9y1TR2/",
+   "sent": "2026-11-20T05:53:35Z",
+   "note": "Agent course",
+   "creator": "nsaraev.archive",
+   "summary": "Andrew Ng's free course on building AI agents from scratch, in five chapters: how agents work, agentic design patterns, practical tips, self-improving loops and multi-agent systems.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTP9UyJPA",
+   "url": "https://www.tiktok.com/t/ZTP9UyJPA/",
+   "sent": "2026-11-20T05:37:27Z",
+   "note": "thehatgpt on TikTok",
+   "creator": "thehatgpt",
+   "summary": "Five free Claude skills for marketing, human-sounding writing, UI design, video and using fewer tokens so you hit limits less often.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZPNN8JDYX",
+   "url": "https://www.tiktok.com/t/ZPNN8JDYX/",
+   "sent": "2026-11-20T01:14:12Z",
+   "note": "Zach Geleott | AI & Marketing on TikTok",
+   "creator": "zachdoesai",
+   "summary": "Three Claude mods you can build with one prompt: one saves what you teach Claude as permanent rules or notes, one explains each command with a green, yellow or red risk level before you approve it, and one checks your prompts.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZPNNdJ9Ph",
+   "url": "https://www.tiktok.com/t/ZPNNdJ9Ph/",
+   "sent": "2026-11-20T01:05:45Z",
+   "note": "saraevuploads on TikTok",
+   "creator": "saraevuploads",
+   "summary": "A prompt for Claude Code that checks your RAM and GPU, picks the strongest uncensored local model that fits, and installs it with Ollama after your yes, so it runs offline.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZPNLq9MCe",
+   "url": "https://www.tiktok.com/t/ZPNLq9MCe/",
+   "sent": "2026-11-19T22:44:03Z",
+   "note": "Ben Gusberg on TikTok",
+   "creator": "bengusberg",
+   "summary": "Ben Gusberg on a Claude update. The caption doesn't say which.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZPNLVjBXo",
+   "url": "https://www.tiktok.com/t/ZPNLVjBXo/",
+   "sent": "2026-11-19T22:33:30Z",
+   "note": "Richard Eve on TikTok",
+   "creator": "artofthepossible.ai",
+   "summary": "Five free Claude skills to start with: Matt Pocock's engineering skills, Apple design principles, a Humanizer for less AI-sounding writing, a film-styles skill and one more.",
+   "topic": "ai"
+  },
   {
    "id": "ZPN8jbfgB",
    "url": "https://www.tiktok.com/t/ZPN8jbfgB/",
