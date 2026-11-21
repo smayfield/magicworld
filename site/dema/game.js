@@ -14,13 +14,29 @@
     !!(window.matchMedia && window.matchMedia('(pointer: coarse)').matches);
   if (isTouch) document.body.classList.add('touch');
 
-  function resize() {
-    const s = Math.min(window.innerWidth / W, window.innerHeight / H);
-    const scale = s >= 2 ? Math.floor(s) : s;
-    canvas.style.width = Math.floor(W * scale) + 'px';
-    canvas.style.height = Math.floor(H * scale) + 'px';
+  // Some phone and in-app browsers report a 0x0 viewport while the page is still loading
+  // and never send a resize event afterwards, so the size is read from several places and
+  // checked again every frame until it is right.
+  let sizedFor = '';
+  function viewport() {
+    const de = document.documentElement || {}, vv = window.visualViewport;
+    const w = window.innerWidth || de.clientWidth || (vv && vv.width) || (window.screen && window.screen.width) || 0;
+    const h = window.innerHeight || de.clientHeight || (vv && vv.height) || (window.screen && window.screen.height) || 0;
+    return [w, h];
   }
-  window.addEventListener('resize', resize);
+  function resize() {
+    const [vw, vh] = viewport();
+    const key = vw + 'x' + vh;
+    if (key === sizedFor) return;
+    if (!(vw > 0 && vh > 0)) { canvas.style.width = '100vw'; canvas.style.height = (100 * H / W) + 'vw'; return; }
+    sizedFor = key;
+    const s = Math.min(vw / W, vh / H);
+    const scale = s >= 2 ? Math.floor(s) : s;
+    canvas.style.width = Math.max(1, Math.floor(W * scale)) + 'px';
+    canvas.style.height = Math.max(1, Math.floor(H * scale)) + 'px';
+  }
+  ['resize', 'orientationchange', 'load', 'pageshow'].forEach(ev => window.addEventListener(ev, resize));
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', resize);
   resize();
 
   const store = {
@@ -1388,6 +1404,7 @@
   const STEP = 1000 / 60;
   let last = performance.now(), acc = 0;
   function frame(now) {
+    resize();
     acc += Math.min(250, now - last);
     last = now;
     while (acc >= STEP) { update(); acc -= STEP; }

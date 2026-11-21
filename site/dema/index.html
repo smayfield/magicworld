@@ -30,6 +30,9 @@
     .back { display: none; position: fixed; left: 10px; bottom: 8px; font: 12px/1.2 monospace; color: #77768a; text-decoration: none; }
     .back:hover { color: #f8d038; }
     body[data-state="title"] .back, body[data-state="win"] .back { display: block; }
+    .turn { display: none; position: fixed; left: 0; right: 0; top: calc(24px + env(safe-area-inset-top)); text-align: center;
+      font: 13px/1.4 monospace; color: #77768a; pointer-events: none; }
+    @media (orientation: portrait) { body.touch[data-state="title"] .turn { display: block; } }
     noscript { color: #ecece2; font: 16px/1.5 monospace; padding: 24px; text-align: center; }
   </style>
 </head>
@@ -43,6 +46,7 @@
     <div class="tb" id="tm" data-k="mute">&#9835;</div>
     <div class="tb" id="tp" data-k="pause">II</div>
   </div>
+  <div class="turn">Turn your phone sideways for a bigger screen.</div>
   <a class="back" href="/">&larr; magicworld.com</a>
   <noscript>Escape from Dema needs JavaScript to run.</noscript>
   <script src="game.js"></script>
