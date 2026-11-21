@@ -394,6 +394,36 @@
     el.addEventListener('pointerleave', off);
     el.addEventListener('contextmenu', e => e.preventDefault());
   });
+  // Phones: a double tap or pinch would zoom the page, and touch-action: none then stops the
+  // player from zooming back out. Block both, and undo any zoom that slips through.
+  const passiveNo = { passive: false };
+  const inLink = e => !!(e.target && e.target.closest && e.target.closest('a'));
+  document.addEventListener('touchstart', e => { if (e.touches && e.touches.length > 1) e.preventDefault(); }, passiveNo);
+  document.addEventListener('touchmove', e => { if (!inLink(e)) e.preventDefault(); }, passiveNo);
+  let lastTouchEnd = 0;
+  document.addEventListener('touchend', e => {
+    const now = Date.now();
+    if (now - lastTouchEnd < 400 && !inLink(e)) e.preventDefault();
+    lastTouchEnd = now;
+  }, passiveNo);
+  document.addEventListener('dblclick', e => e.preventDefault(), passiveNo);
+  ['gesturestart', 'gesturechange', 'gestureend'].forEach(ev => document.addEventListener(ev, e => e.preventDefault(), passiveNo));
+  document.querySelectorAll('#touch .tb').forEach(el => el.addEventListener('touchstart', e => e.preventDefault(), passiveNo));
+  const vpMeta = document.querySelector ? document.querySelector('meta[name="viewport"]') : null;
+  const VP = ['width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover',
+    'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover'];
+  let vpFlip = 0, lastUnzoom = 0;
+  function unzoom() {
+    const vv = window.visualViewport;
+    if (!vpMeta || !vv || vv.scale <= 1.01) return;
+    const now = Date.now();
+    if (now - lastUnzoom < 500) return;
+    lastUnzoom = now;
+    vpFlip ^= 1;
+    vpMeta.setAttribute('content', VP[vpFlip]);
+  }
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', unzoom);
+
   canvas.addEventListener('pointerdown', e => {
     e.preventDefault();
     Snd.init();
@@ -1404,6 +1434,7 @@
   const STEP = 1000 / 60;
   let last = performance.now(), acc = 0;
   function frame(now) {
+    unzoom();
     resize();
     acc += Math.min(250, now - last);
     last = now;

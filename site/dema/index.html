@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <title>Escape from Dema · MagicWorld</title>
   <meta name="description" content="An unofficial 8-bit fan game: slip past the bishops, climb the wall and reach Trench.">
   <meta name="theme-color" content="#0b0b10">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <style>
-    html, body { margin: 0; height: 100%; background: #0b0b10; overflow: hidden; }
+    html, body { margin: 0; height: 100%; background: #0b0b10; overflow: hidden; touch-action: none; overscroll-behavior: none; }
     body { display: flex; align-items: center; justify-content: center; touch-action: none;
       -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
-    #game { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+    #game { display: block; touch-action: none; image-rendering: pixelated; image-rendering: crisp-edges; }
     #touch { position: fixed; inset: 0; pointer-events: none; display: none; }
     body.touch[data-state="play"] #touch, body.touch[data-state="dying"] #touch { display: block; }
     .tb { position: absolute; pointer-events: auto; box-sizing: border-box; width: 64px; height: 64px; border-radius: 50%;
