@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:30:53Z",
+ "updated": "2026-11-22T14:15:59Z",
  "removed": [
   "ZPL39yXFG",
   "ZTPJo9t6F",
@@ -39,6 +39,24 @@
   "ZT8jsT8nF"
  ],
  "videos": [
+  {
+   "id": "ZTPXnCPoq",
+   "url": "https://www.tiktok.com/t/ZTPXnCPoq/",
+   "sent": "2026-11-22T13:11:00Z",
+   "note": "",
+   "creator": "aicreatorbase",
+   "summary": "A clip of the creator of Claude Code showing how he recommends using it, pitched at anyone who codes with AI.",
+   "topic": "ai"
+  },
+  {
+   "id": "ZTPXgSRkw",
+   "url": "https://www.tiktok.com/t/ZTPXgSRkw/",
+   "sent": "2026-11-22T05:26:16Z",
+   "note": "",
+   "creator": "nicksaraev.extra",
+   "summary": "Anthropic's new Claude Forward Deployed Engineer path: 11 self-paced courses (about 9.5 hours) on the Claude API, agents, tools and MCP, running Claude Code inside a business, building MCP servers and skills, and running a pilot. It leads to the Claude Certified Developer exam.",
+   "topic": "ai"
+  },
   {
    "id": "ZPNYwMt29",
    "url": "https://www.tiktok.com/t/ZPNYwMt29/",
